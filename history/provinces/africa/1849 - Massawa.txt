@@ -1,0 +1,10 @@
+owner = EGY
+controller = EGY
+add_core = ETH
+trade_goods = sugar
+life_rating = 35
+terrain = massawa
+1861.1.1 = {
+	owner = ETH
+	controller = ETH
+}

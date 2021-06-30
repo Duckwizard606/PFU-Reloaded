@@ -1,0 +1,399 @@
+political_decisions = {
+
+	tanzimat_reforms = {
+		potential = {
+			tag = TUR
+			NOT = { has_country_flag = tanzimat_reforms_enacted }
+			OR = {
+				government = absolute_monarchy
+				government = prussian_constitutionalism
+				government = hms_government
+			}
+		}
+		
+		allow = {
+				average_militancy = 3
+				state_n_government = 1	
+		}
+		
+		effect = {
+			set_country_flag = tanzimat_reforms_enacted
+			set_country_flag = secularized_muslim_society
+
+			random_owned = {
+				limit = {
+					owner = { education = public }
+				}
+				owner = {
+					add_country_modifier = {
+						name = tanzimat_era
+						duration = 3650
+					}
+				}
+			}
+			random_owned = {
+				limit = {
+					owner = { education = church }
+				}	
+				owner = { social_reform = public }
+			}
+			random_owned = {
+				limit = {
+					owner = { education = elite }
+				}	
+				owner = { social_reform = church }
+			}				
+			any_pop = {
+				limit = { is_primary_culture = yes }
+				ideology = {
+					value = liberal
+					factor = 0.05
+				}
+				scaled_consciousness = {
+					ideology = liberal
+					factor = 4
+				}
+			}
+		}
+		
+		ai_will_do = { factor = 1 }
+	}
+
+	hatt_i_humayun = {
+		picture = kanun_i_esasi
+		potential = {
+			tag = TUR
+			NOT = {
+				has_country_flag = ottoman_constitution_refused
+				has_country_flag = enacted_ottomanism
+				has_country_flag = ottomans_to_turks
+			}
+		}
+		
+		allow = {
+			state_n_government = 1
+			year = 1860
+			NOT = { citizenship_policy = residency }
+			OR = {
+				liberal = 20
+				socialist = 20
+				AND = {
+					liberal = 15
+					socialist = 15
+				}
+			}
+		}
+		
+		effect = {
+			set_country_flag = enacted_ottomanism
+			add_accepted_culture = bedouin
+			add_accepted_culture = albanian
+			add_accepted_culture = bosniak
+			add_accepted_culture = azerbaijani
+			add_accepted_culture = tatar
+			add_country_modifier = {
+				name = ottomanism_reform
+				duration = -1
+			}
+			any_pop = {
+				scaled_militancy = {
+					ideology = liberal
+					factor = -6
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	republican_reforms = {
+		potential = {
+			tag = TUR
+			government = democracy
+			NOT = { has_country_flag = had_ataturk_reforms }
+		}
+		
+		allow = {
+			election = no
+			ruling_party_ideology = liberal
+			year = 1919
+		}
+		
+		effect = {
+			set_country_flag = had_ataturk_reforms
+			add_country_modifier = {
+				name = great_statesman
+				duration = 5475
+			}
+			add_country_modifier = {
+				name = republican_reforms
+				duration = 3650
+			}
+		}
+	}
+
+	reforms_of_abdulmejid_i = {
+		picture = abdulmejid_i
+		potential = {
+			tag = TUR
+			is_disarmed = no
+			NOT = { has_country_flag = reforms_of_abdulmejid_I }
+		}
+		
+		allow = {
+			OR = {
+				government = absolute_monarchy
+				government = prussian_constitutionalism
+				government = hms_government
+			}
+			war = no
+			state_n_government = 1
+			army_professionalism = 1
+			NOT = { war_policy = pacifism }
+		}
+		
+		effect = {
+			prestige = 10
+			set_country_flag = reforms_of_abdulmejid_I
+			political_reform = mandatory_service
+			add_country_modifier = {
+				name = abdulmejid_i_reforms
+				duration = 14600
+			}
+			any_pop = {
+				limit = { type = officers }
+				consciousness = -1
+			}
+			
+			
+		}
+		
+		ai_will_do = { factor = 1 }
+	}
+	
+	ottoman_national_anthemn = {
+		picture = necip_ahmed_pasha
+		potential = {
+			tag = TUR
+			NOT = { has_country_flag = ottoman_national_anthemn }
+		}
+		
+		allow = {
+			OR = {
+				government = absolute_monarchy
+				government = prussian_constitutionalism
+				government = hms_government
+			}
+			war = no
+			state_n_government = 1
+		}
+		
+		effect = {
+			set_country_flag = ottoman_national_anthemn	
+			prestige = 15
+			plurality = 5
+			any_pop = {
+				limit = { is_primary_culture = yes }
+				consciousness = -1
+			}
+		}
+		
+		ai_will_do = { factor = 1 }
+	}
+	
+	bosphorus_canal = {
+		potential = {
+			tag = TUR
+			always = no
+		}
+		allow = {
+			tag = TUR
+		}
+		effect = {
+			enable_canal = 4
+		}
+	}		
+		
+	demand_thessaly = {
+		picture = balkan_war
+		potential = {
+			year = 1881
+			tag = GRE
+			TUR = {
+				OR = {
+					owns = 824
+					owns = 825
+					owns = 833
+					owns = 832
+					owns = 831
+				}
+			}
+			NOT = { 
+				is_vassal = yes
+				has_country_flag = demanded_thessaly
+				truce_with = TUR
+				alliance_with = TUR
+			}
+		}
+
+		allow = {
+			war = no
+			OR = {
+				is_greater_power = yes
+				any_greater_power = {
+					alliance_with = GRE
+					NOT = {
+						alliance_with = TUR
+						truce_with = TUR
+					}
+				}
+			}
+			TUR = { 
+				is_greater_power = no
+				OR = {
+					war = yes
+					any_owned_province = {
+						is_core = GRE
+						average_militancy = 6
+					}
+				}
+			}
+		}
+
+		effect = {
+			set_country_flag = demanded_thessaly
+			TUR = { country_event = 90027 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	demand_serb_lands_TUR = {
+		picture = balkan_war
+		potential = {
+			tag = SER
+			TUR = {
+				any_owned_province = {
+					is_core = SER
+				}
+			}
+			NOT = { 
+				is_vassal = yes
+				has_country_flag = demanded_serb_lands_TUR
+				truce_with = TUR
+				alliance_with = TUR
+			}
+		}
+
+		allow = {
+			war = no
+			nationalism_n_imperialism = 1
+			OR = {
+				is_greater_power = yes
+				any_greater_power = {
+					alliance_with = SER
+					NOT = {
+						alliance_with = TUR
+						truce_with = TUR
+					}
+				}
+			}
+			TUR = {
+				is_greater_power = no
+				OR = {
+					war = yes
+					any_owned_province = {
+						is_core = SER
+						average_militancy = 6
+					}
+				}
+			}
+		}
+
+		effect = {
+			set_country_flag = demanded_serb_lands_TUR
+			TUR = { country_event = 90028 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	demand_montenegro_lands = {
+		picture = balkan_war
+		potential = {
+			tag = MON
+			TUR = {
+				any_owned_province = {
+					is_core = MON
+				}
+			}
+			NOT = { 
+				is_vassal = yes
+				has_country_flag = demanded_montenegro_lands
+				truce_with = TUR
+				alliance_with = TUR
+			}
+		}
+
+		allow = {
+			war = no
+			nationalism_n_imperialism = 1
+			OR = {
+				is_greater_power = yes
+				any_greater_power = {
+					alliance_with = MON
+					NOT = {
+						alliance_with = TUR
+						truce_with = TUR
+					}
+				}
+			}
+			TUR = {
+				is_greater_power = no
+				OR = {
+					war = yes
+					any_owned_province = {
+						is_core = MON
+						average_militancy = 6
+					}
+				}
+			}
+		}
+
+		effect = {
+			set_country_flag = demanded_montenegro_lands
+			TUR = { country_event = 90035 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	move_capital_to_ankara = {
+		potential = {
+			tag = TUR
+			NOT = { capital = 876 }
+			owns = 876
+		}
+
+		allow = {
+			OR = {
+				NOT = { owns = 817 }
+				NOT = { owns = 816 }
+				NOT = { owns = 830 }
+				has_country_flag = ottomans_to_turks
+			}
+		}
+
+		effect = {
+			capital = 876
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+}

@@ -1,0 +1,8 @@
+owner = ENG
+controller = ENG
+add_core = GBU
+trade_goods = fruit
+life_rating = 30
+terrain = banjul
+colonial = 2
+naval_base = 1

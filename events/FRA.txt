@@ -1,0 +1,70 @@
+
+country_event = {
+	id = 99937
+	title = "EVTNAME99937" #General Boulanger Appointed
+	desc = "EVTDESC99937"
+	picture = "general_boulanger"
+	fire_only_once = yes
+	
+	trigger = {
+		tag = FRA
+		412 = { NOT = { owned_by = THIS } }
+		NOT = { has_country_flag = boulanger_director }
+	}
+	
+	mean_time_to_happen =  {
+		months = 2
+	}
+
+	immediate = {
+		set_country_flag = boulanger_director
+	}
+	
+	option = {
+		name = "EVT99937OPTA"
+		add_country_modifier = {
+			name = war_minister_boulanger
+			duration = 7300
+		}
+		add_country_modifier = {
+			name = french_revanchism
+			duration = -1
+		}
+		any_pop = {
+			limit = {
+				is_primary_culture = yes
+				is_accepted_culture = yes
+				OR = {
+					type = soldiers
+					type = officers
+				}
+			}
+			ideology = { factor = 0.2 value = conservative }
+			ideology = { factor = 0.1 value = reactionary }
+			dominant_issue = { factor = 0.20 value = jingoism }
+		}
+		any_pop = {
+			limit = {
+				strata = poor
+				is_culture_group = french
+				location = { is_core = THIS }
+			}
+			ideology = { factor = 0.1 value = conservative }
+			ideology = { factor = 0.05 value = liberal }
+			dominant_issue = { factor = 0.10 value = jingoism }
+		}
+		any_pop = {
+			limit = {
+				location = { is_core = THIS }
+			}
+			scaled_militancy = {
+				ideology = reactionary
+				factor = -4
+			}
+			scaled_militancy = {
+				ideology = conservative
+				factor = -2
+			}
+		}
+	}
+}

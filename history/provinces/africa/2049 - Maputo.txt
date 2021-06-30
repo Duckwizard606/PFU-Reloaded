@@ -1,0 +1,8 @@
+owner = GAZ
+controller = GAZ
+add_core = GAZ
+add_core = MAT
+trade_goods = grain
+life_rating = 35
+terrain = lourenco_marques
+colonial = 2

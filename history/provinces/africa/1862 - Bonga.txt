@@ -1,0 +1,10 @@
+owner = KAF
+controller = KAF
+add_core = KAF
+add_core = GON
+add_core = SHW
+add_core = TIG
+add_core = KAF
+trade_goods = coffee
+life_rating = 35
+terrain = seasonal_jungle_mountains

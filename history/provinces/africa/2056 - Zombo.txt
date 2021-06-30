@@ -1,0 +1,7 @@
+owner = POR
+controller = POR
+add_core = SHO
+trade_goods = coffee
+life_rating = 15
+terrain = dry_forest_hills
+colonial = 2

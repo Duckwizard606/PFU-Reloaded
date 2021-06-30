@@ -1,0 +1,6 @@
+owner = WRL
+controller = WRL
+add_core = WRL
+trade_goods = grain
+life_rating = 30
+terrain = desert_hills

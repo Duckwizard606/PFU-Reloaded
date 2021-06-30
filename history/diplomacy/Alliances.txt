@@ -1,0 +1,101 @@
+####Austrian Alliances
+alliance = {
+		first = AUS
+		second = BAV 
+		start_date = 1835.1.1
+		end_date = 1867.1.1
+}
+alliance = {
+		first = AUS
+		second = WUR
+		start_date = 1835.1.1
+		end_date = 1867.1.1
+}
+alliance = {
+		first = AUS 
+		second = BAD
+		start_date = 1835.1.1
+		end_date = 1867.1.1
+}
+
+alliance = {
+	first = AUS
+	second = SAX
+	start_date = 1835.1.1
+	end_date = 1867.1.1
+}
+
+#Prussian Alliances
+
+alliance = {
+	first = PRU
+	second = BRE
+	start_date = 1835.1.1
+	end_date = 1867.1.1
+}
+alliance = {
+	first = PRU
+	second = HOL
+	start_date = 1835.1.1
+	end_date = 1867.1.1
+}
+
+alliance = {
+	first = PRU
+	second = MEC
+	start_date = 1835.1.1
+	end_date = 1867.1.1
+}
+
+alliance = {
+	first = PRU
+	second = HES
+	start_date = 1835.1.1
+	end_date = 1867.1.1
+}
+
+alliance = {
+	first = PRU
+	second = COB
+	start_date = 1835.1.1
+	end_date = 1867.1.1
+}
+
+#British Alliances
+alliance = {
+		first = ENG 
+		second = POR
+		start_date = 1835.1.1
+		end_date = 1946.1.1
+}
+alliance = {
+		first = ENG 
+		second = BEL
+		start_date = 1835.1.1
+		end_date = 1946.1.1
+}
+
+alliance = {
+	first = ENG 
+	second = HAN
+	start_date = 1835.1.1
+	end_date = 1946.1.1
+}
+#Russian Alliances
+alliance = {
+		first = RUS 
+		second = SER
+		start_date = 1835.1.1
+		end_date = 1946.1.1
+}
+
+#French Alliances
+
+alliance = {
+	first = FRA
+	second = PAP
+	start_date = 1835.1.1
+	end_date = 1946.1.1
+}
+
+	

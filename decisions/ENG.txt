@@ -1,0 +1,40 @@
+political_decisions = {
+	webster_ashburton_treaty = {
+		potential = {
+			tag = ENG
+			NOT = { has_global_flag = webster_ashburton_signed }
+			USA = { any_owned_province = { region = USA_247 } }
+		}
+		allow = {
+			CAN = {
+				owns = 250
+			}
+			OR = {
+				AND = {
+					USA = { owns = 249 }
+					NOT = { war_with = USA }
+				}
+			}
+		}
+		
+		effect = {
+			250 = { remove_core = CAN }
+			badboy = -2
+			prestige = 10
+			249 = { owner = { country_event = 44122 } }
+			set_global_flag = webster_ashburton_signed
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { badboy = 0.08 }
+			}
+			modifier = {
+				factor = 0
+				NOT = { year = 1842 }
+			}
+		}
+	}
+}
