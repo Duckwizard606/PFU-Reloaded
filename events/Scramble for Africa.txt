@@ -4,9 +4,19 @@
 #																												#
 #################################################################################################################
 
+
+
+	# I hate how restricted this scripting system is. I have so many ideas that are simply not 
+	#implementable on this dilapidated engine. In Victoria 3 we will have a very dynamic scramble for Africa. -pthfndr
+
+
+	#I don't want to do 24 permutations of the same event, so hopefully Sweden and Spain never die in 1880.
+
+
+#NET,SWE,BEL,SPA
 country_event = {
 	
-	id = 95500
+	id = 955000 
 	title = "EVTNAME95500" #The Berlin Conference
 	desc = "EVTDESC95500"
 	news = yes
@@ -16,7 +26,12 @@ country_event = {
 	picture = "scramble_for_africa"
 	major = yes
 
-	trigger = {	exists = yes
+	trigger = {
+		NET = { AND = { exists = yes is_vassal = no } }
+		BEL = { AND = { exists = yes is_vassal = no } }
+		OR = { SPA = { AND = { exists = yes is_vassal = no } } IBR = { AND = { exists = yes is_vassal = no } } }
+		OR = { SWE = { AND = { exists = yes is_vassal = no } } SCA = { AND = { exists = yes is_vassal = no } } }
+
 		OR = {
 			is_greater_power = yes
 			AND = {
@@ -25,10 +40,12 @@ country_event = {
 			}
 		}
 		capital_scope = { continent = europe }
-		invention = the_white_mans_burden
-		invention = indigenous_garrisoning
+		# invention = the_white_mans_burden
+		# invention = indigenous_garrisoning
 		NOT = { has_global_flag = berlin_conference }
 	}
+
+	allow_multiple_instances = no
 
 	mean_time_to_happen = {
 		months = 3
@@ -38,10 +55,1123 @@ country_event = {
 		}
 	}
 
+
+	immediate = {
+		set_global_flag = berlin_conference
+
+		any_country = {
+			limit = {
+				is_vassal = no
+				OR = {
+					tag = SPA
+					tag = IBR
+					tag = SWE
+					tag = SCA
+					tag = BEL
+					tag = NET
+				}
+			}
+			set_variable = { which = congo_score value = 0 }
+		}
+		THIS = {
+			limit = {
+				NOT = {
+					tag = SPA
+					tag = IBR
+					tag = BEL
+					tag = NET
+					tag = SWE
+					tag = SCA
+					tag = TUR
+					tag = RUS
+				}
+				is_greater_power = yes
+				capital_scope = { continent = europe }	
+			}
+			country_event = {
+				id = 955005
+				days = 7
+			}
+		}
+		
+		any_country = {
+			limit = {
+				NOT = {
+					tag = SPA
+					tag = IBR
+					tag = BEL
+					tag = NET
+					tag = SWE
+					tag = SCA
+					tag = TUR
+					tag = RUS
+				}
+				is_greater_power = yes
+				capital_scope = { continent = europe }	
+			}
+			country_event = {
+				id = 955005
+				days = 7
+			}
+		}
+	}
+
+	option = {
+		name = "We must civilize all of Africa"
+		prestige = 40
+		#Ivory Coast
+		1895 = { trade_goods = precious_metal } #Bouake  (Kokumbo Mine)
+		1899 = { trade_goods = coffee } #Bondouku
+		1897 = { trade_goods = coffee } #Akoupe
+		1896 = { trade_goods = coffee } #Man
+		1900 = { trade_goods = fruit } #Odienne
+		#Ghana
+		1909 = { trade_goods = precious_metal } #Sekondi (Tarkwa Mine)
+		1910 = { trade_goods = precious_metal } #Kumai (Obuasi Mine)
+		1907 = { trade_goods = coffee } #Accra (cocoa)
+		1912 = { trade_goods = grain } #Wa
+		1911 = { trade_goods = coffee } #Kintampo (cocoa)
+		1915 = { trade_goods = coffee } #Ho (cocoa)
+		1916 = { trade_goods = cotton } #Yendi
+		#Togo
+		1914 = { trade_goods = coffee } #Lome
+		1917 = { trade_goods = coffee } #Atakpame
+		1918 = { trade_goods = cotton } #Sokode
+		#Nigeria
+		1935 = { trade_goods = coal } #Aruchukwu (representing Enugu)
+		#Morocco
+		1689 = { trade_goods = iron } #Melilla
+
+	}
+}
+
+#NET SWE SPA
+country_event = {
+	
+	id = 955001
+	title = "EVTNAME95500" #The Berlin Conference
+	desc = "EVTDESC95500"
+	news = yes
+	news_desc_long = "EVTDESC95500_NEWS_LONG"
+	news_desc_medium = "EVTDESC95500_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC95500_NEWS_SHORT"
+	picture = "scramble_for_africa"
+	major = yes
+
+	trigger = {
+
+		NET = { AND = { exists = yes is_vassal = no } }
+		BEL = { exists = no }
+		OR = { SPA = { AND = { exists = yes is_vassal = no } } IBR = { AND = { exists = yes is_vassal = no } } }
+		OR = { SWE = { AND = { exists = yes is_vassal = no } } SCA = { AND = { exists = yes is_vassal = no } } }
+		
+		OR = {
+			is_greater_power = yes
+			AND = {
+				colonial_nation = yes
+				any_owned_province = { continent = africa }
+			}
+		}
+		capital_scope = { continent = europe }
+		# invention = the_white_mans_burden
+		# invention = indigenous_garrisoning
+		NOT = { has_global_flag = berlin_conference }
+	}
+
+	allow_multiple_instances = no
+
+
+	mean_time_to_happen = {
+		months = 3
+		modifier = {
+			factor = 0.8
+			capital = 549
+		}
+	}
+
+	immediate = {
+		set_global_flag = berlin_conference
+
+		any_country = {
+			limit = {
+				is_vassal = no
+				OR = {
+					tag = SPA
+					tag = IBR
+					tag = SWE
+					tag = SCA
+					tag = BEL
+					tag = NET
+				}
+			}
+			set_variable = { which = congo_score value = 0 }
+		}
+		THIS = {
+			limit = {
+				NOT = {
+					tag = SPA
+					tag = IBR
+					tag = BEL
+					tag = NET
+					tag = SWE
+					tag = SCA
+					tag = TUR
+					tag = RUS
+				}
+				is_greater_power = yes
+				capital_scope = { continent = europe }	
+			}
+			country_event = {
+				id = 955006
+				days = 7
+			}
+		}
+		
+		any_country = {
+			limit = {
+				NOT = {
+					tag = SPA
+					tag = IBR
+					tag = BEL
+					tag = NET
+					tag = SWE
+					tag = SCA
+					tag = TUR
+					tag = RUS
+				}
+				is_greater_power = yes
+				capital_scope = { continent = europe }	
+			}
+			country_event = {
+				id = 955006
+				days = 7
+			}
+		}
+	}
+
+	option = {
+		name = "We must civilize all of Africa"
+		prestige = 40
+		#Ivory Coast
+		1895 = { trade_goods = precious_metal } #Bouake  (Kokumbo Mine)
+		1899 = { trade_goods = coffee } #Bondouku
+		1897 = { trade_goods = coffee } #Akoupe
+		1896 = { trade_goods = coffee } #Man
+		1900 = { trade_goods = fruit } #Odienne
+		#Ghana
+		1909 = { trade_goods = precious_metal } #Sekondi (Tarkwa Mine)
+		1910 = { trade_goods = precious_metal } #Kumai (Obuasi Mine)
+		1907 = { trade_goods = coffee } #Accra (cocoa)
+		1912 = { trade_goods = grain } #Wa
+		1911 = { trade_goods = coffee } #Kintampo (cocoa)
+		1915 = { trade_goods = coffee } #Ho (cocoa)
+		1916 = { trade_goods = cotton } #Yendi
+		#Togo
+		1914 = { trade_goods = coffee } #Lome
+		1917 = { trade_goods = coffee } #Atakpame
+		1918 = { trade_goods = cotton } #Sokode
+		#Nigeria
+		1935 = { trade_goods = coal } #Aruchukwu (representing Enugu)
+		#Morocco
+		1689 = { trade_goods = iron } #Melilla
+
+	}
+}
+
+
+#BEL SWE SPA
+country_event = {
+	
+	id = 955002
+	title = "EVTNAME95500" #The Berlin Conference
+	desc = "EVTDESC95500"
+	news = yes
+	news_desc_long = "EVTDESC95500_NEWS_LONG"
+	news_desc_medium = "EVTDESC95500_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC95500_NEWS_SHORT"
+	picture = "scramble_for_africa"
+	major = yes
+
+	trigger = {
+
+		NET = { exists = no }
+		BEL = { AND = { exists = yes is_vassal = no } }
+		OR = { SPA = { AND = { exists = yes is_vassal = no } } IBR = { AND = { exists = yes is_vassal = no } } }
+		OR = { SWE = {AND = { exists = yes is_vassal = no } } SCA = { AND = { exists = yes is_vassal = no } } }
+
+		OR = {
+			is_greater_power = yes
+			AND = {
+				colonial_nation = yes
+				any_owned_province = { continent = africa }
+			}
+		}
+		capital_scope = { continent = europe }
+		# invention = the_white_mans_burden
+		# invention = indigenous_garrisoning
+		NOT = { has_global_flag = berlin_conference }
+	}
+
+	allow_multiple_instances = no
+
+	mean_time_to_happen = {
+		months = 3
+		modifier = {
+			factor = 0.8
+			capital = 549
+		}
+	}
+
+	immediate = {
+		set_global_flag = berlin_conference
+
+		any_country = {
+			limit = {
+				is_vassal = no
+				OR = {
+					tag = SPA
+					tag = IBR
+					tag = SWE
+					tag = SCA
+					tag = BEL
+					tag = NET
+				}
+			}
+			set_variable = { which = congo_score value = 0 }
+		}
+		THIS = {
+			limit = {
+				NOT = {
+					tag = SPA
+					tag = IBR
+					tag = BEL
+					tag = NET
+					tag = SWE
+					tag = SCA
+					tag = TUR
+					tag = RUS
+				}
+				is_greater_power = yes
+				capital_scope = { continent = europe }	
+			}
+			country_event = {
+				id = 955007
+				days = 7
+			}
+		}
+		
+		any_country = {
+			limit = {
+				NOT = {
+					tag = SPA
+					tag = IBR
+					tag = BEL
+					tag = NET
+					tag = SWE
+					tag = SCA
+					tag = TUR
+					tag = RUS
+				}
+				is_greater_power = yes
+				capital_scope = { continent = europe }	
+			}
+			country_event = {
+				id = 955007
+				days = 7
+			}
+		}
+	}
+
 	option = {
 		name = "We must civilize all of Africa"
 		set_global_flag = berlin_conference
-		prestige = 25
+		prestige = 40
+		#Ivory Coast
+		1895 = { trade_goods = precious_metal } #Bouake  (Kokumbo Mine)
+		1899 = { trade_goods = coffee } #Bondouku
+		1897 = { trade_goods = coffee } #Akoupe
+		1896 = { trade_goods = coffee } #Man
+		1900 = { trade_goods = fruit } #Odienne
+		#Ghana
+		1909 = { trade_goods = precious_metal } #Sekondi (Tarkwa Mine)
+		1910 = { trade_goods = precious_metal } #Kumai (Obuasi Mine)
+		1907 = { trade_goods = coffee } #Accra (cocoa)
+		1912 = { trade_goods = grain } #Wa
+		1911 = { trade_goods = coffee } #Kintampo (cocoa)
+		1915 = { trade_goods = coffee } #Ho (cocoa)
+		1916 = { trade_goods = cotton } #Yendi
+		#Togo
+		1914 = { trade_goods = coffee } #Lome
+		1917 = { trade_goods = coffee } #Atakpame
+		1918 = { trade_goods = cotton } #Sokode
+		#Nigeria
+		1935 = { trade_goods = coal } #Aruchukwu (representing Enugu)
+		#Morocco
+		1689 = { trade_goods = iron } #Melilla
+
+	}
+}
+
+# SWE # SPA
+country_event = {
+	
+	id = 955003
+	title = "EVTNAME95500" #The Berlin Conference
+	desc = "EVTDESC95500"
+	news = yes
+	news_desc_long = "EVTDESC95500_NEWS_LONG"
+	news_desc_medium = "EVTDESC95500_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC95500_NEWS_SHORT"
+	picture = "scramble_for_africa"
+	major = yes
+
+	trigger = {
+
+		NET = { exists = no }
+		BEL = { AND = { exists = no } }
+		OR = { SPA = { AND = { exists = yes is_vassal = no } } IBR = { AND = { exists = yes is_vassal = no } } }
+		OR = { SWE = {AND = { exists = yes is_vassal = no } } SCA = { AND = { exists = yes is_vassal = no } } }
+
+		OR = {
+			is_greater_power = yes
+			AND = {
+				colonial_nation = yes
+				any_owned_province = { continent = africa }
+			}
+		}
+		capital_scope = { continent = europe }
+		# invention = the_white_mans_burden
+		# invention = indigenous_garrisoning
+		NOT = { has_global_flag = berlin_conference }
+	}
+
+	allow_multiple_instances = no
+
+	mean_time_to_happen = {
+		months = 3
+		modifier = {
+			factor = 0.8
+			capital = 549
+		}
+	}
+
+	immediate = {
+		set_global_flag = berlin_conference
+
+		any_country = {
+			limit = {
+				is_vassal = no
+				OR = {
+					tag = SPA
+					tag = IBR
+					tag = SWE
+					tag = SCA
+					tag = BEL
+					tag = NET
+				}
+			}
+			set_variable = { which = congo_score value = 0 }
+		}
+		THIS = {
+			limit = {
+				NOT = {
+					tag = SPA
+					tag = IBR
+					tag = BEL
+					tag = NET
+					tag = SWE
+					tag = SCA
+					tag = TUR
+					tag = RUS
+				}
+				is_greater_power = yes
+				capital_scope = { continent = europe }	
+			}
+			country_event = {
+				id = 955008
+				days = 7
+			}
+		}
+		
+		any_country = {
+			limit = {
+				NOT = {
+					tag = SPA
+					tag = IBR
+					tag = BEL
+					tag = NET
+					tag = SWE
+					tag = SCA
+					tag = TUR
+					tag = RUS
+				}
+				is_greater_power = yes
+				capital_scope = { continent = europe }	
+			}
+			country_event = {
+				id = 955008
+				days = 7
+			}
+		}
+	}
+
+	option = {
+		name = "We must civilize all of Africa"
+		set_global_flag = berlin_conference
+		prestige = 40
+		#Ivory Coast
+		1895 = { trade_goods = precious_metal } #Bouake  (Kokumbo Mine)
+		1899 = { trade_goods = coffee } #Bondouku
+		1897 = { trade_goods = coffee } #Akoupe
+		1896 = { trade_goods = coffee } #Man
+		1900 = { trade_goods = fruit } #Odienne
+		#Ghana
+		1909 = { trade_goods = precious_metal } #Sekondi (Tarkwa Mine)
+		1910 = { trade_goods = precious_metal } #Kumai (Obuasi Mine)
+		1907 = { trade_goods = coffee } #Accra (cocoa)
+		1912 = { trade_goods = grain } #Wa
+		1911 = { trade_goods = coffee } #Kintampo (cocoa)
+		1915 = { trade_goods = coffee } #Ho (cocoa)
+		1916 = { trade_goods = cotton } #Yendi
+		#Togo
+		1914 = { trade_goods = coffee } #Lome
+		1917 = { trade_goods = coffee } #Atakpame
+		1918 = { trade_goods = cotton } #Sokode
+		#Nigeria
+		1935 = { trade_goods = coal } #Aruchukwu (representing Enugu)
+		#Morocco
+		1689 = { trade_goods = iron } #Melilla
+
+	}
+}
+
+#Edgecase where either Sweden/Scandi or Spain/Iberian Union are full annexed.
+country_event = {
+	
+	id = 955004
+	title = "EVTNAME95500" #The Berlin Conference
+	desc = "EVTDESC95500"
+	news = yes
+	news_desc_long = "EVTDESC95500_NEWS_LONG"
+	news_desc_medium = "EVTDESC95500_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC95500_NEWS_SHORT"
+	picture = "scramble_for_africa"
+	major = yes
+
+	trigger = {
+
+		OR = {
+			AND = { SPA = { exists = no} IBR = { exists = no } }
+			AND = { SWE = { exists = no} SCA = { exists = no } }
+		}
+
+		OR = {
+			is_greater_power = yes
+			AND = {
+				colonial_nation = yes
+				any_owned_province = { continent = africa }
+			}
+		}
+		capital_scope = { continent = europe }
+		# invention = the_white_mans_burden
+		# invention = indigenous_garrisoning
+		NOT = { has_global_flag = berlin_conference }
+	}
+
+	allow_multiple_instances = no
+
+
+	mean_time_to_happen = {
+		months = 3
+		modifier = {
+			factor = 0.8
+			capital = 549
+		}
+	}
+
+	immediate = {
+		set_global_flag = berlin_conference
+	}
+
+	option = {
+		name = "We must civilize all of Africa"
+		prestige = 40
+		#Ivory Coast
+		1895 = { trade_goods = precious_metal } #Bouake  (Kokumbo Mine)
+		1899 = { trade_goods = coffee } #Bondouku
+		1897 = { trade_goods = coffee } #Akoupe
+		1896 = { trade_goods = coffee } #Man
+		1900 = { trade_goods = fruit } #Odienne
+		#Ghana
+		1909 = { trade_goods = precious_metal } #Sekondi (Tarkwa Mine)
+		1910 = { trade_goods = precious_metal } #Kumai (Obuasi Mine)
+		1907 = { trade_goods = coffee } #Accra (cocoa)
+		1912 = { trade_goods = grain } #Wa
+		1911 = { trade_goods = coffee } #Kintampo (cocoa)
+		1915 = { trade_goods = coffee } #Ho (cocoa)
+		1916 = { trade_goods = cotton } #Yendi
+		#Togo
+		1914 = { trade_goods = coffee } #Lome
+		1917 = { trade_goods = coffee } #Atakpame
+		1918 = { trade_goods = cotton } #Sokode
+		#Nigeria
+		1935 = { trade_goods = coal } #Aruchukwu (representing Enugu)
+		#Morocco
+		1689 = { trade_goods = iron } #Melilla
+	}
+}
+
+country_event = { # 955000 voting event (Netherlands,Belgium,Sweden,Spain)
+	 id = 955005
+	 title = "The Congo Conference"
+	 desc = ""
+	 picture = "partition_of_africa"
+
+	 is_triggered_only = yes
+
+	 immediate = {
+		 set_global_flag = congo_conference_voting
+	 }
+
+
+	 option = {
+		name = "Belgium"
+		BEL = { change_variable = { which = congo_score value = 1 } }
+	 }
+
+	 option = {
+		 name = "Netherlands"
+		 NET = { change_variable = { which = congo_score value = 1 } }
+
+	 }
+
+	 option = {
+		name = "Sweden"
+		SWE = { change_variable = { which = congo_score value = 1 } }
+		SCA = { change_variable = { which = congo_score value = 1 } }
+	 }
+
+	 option = {
+		name = "Spain"
+		SPA = { change_variable = { which = congo_score value = 1 } }
+		IBR = { change_variable = { which = congo_score value = 1 } }
+	 }
+	 
+	 option = {
+		 name = "abstain"
+	 }
+}
+country_event = { # 955001 voting event(Netherlands,Sweden,Spain)
+	 id = 955006
+	 title = "The Congo Conference"
+	 desc = ""
+	 picture = "partition_of_africa"
+
+	 is_triggered_only = yes
+
+	 immediate = {
+		set_global_flag = congo_conference_voting
+	}
+
+	 option = {
+		name = "Netherlands"
+		NET = { change_variable = { which = congo_score value = 1 } }
+
+	}
+	
+	 option = {
+		name = "Sweden"
+		SWE = { change_variable = { which = congo_score value = 1 } }
+		SCA = { change_variable = { which = congo_score value = 1 } }
+	 }
+
+	 option = {
+		name = "Spain"
+		SPA = { change_variable = { which = congo_score value = 1 } }
+		IBR = { change_variable = { which = congo_score value = 1 } }
+	 }
+}
+
+country_event = { # 955002 voting event(Belgium,Sweden,Spain)
+	 id = 955007
+	 title = "The Congo Conference"
+	 desc = ""
+	 picture = "partition_of_africa"
+
+	 is_triggered_only = yes
+
+	 immediate = {
+		set_global_flag = congo_conference_voting
+	}
+	 option = {
+		name = "Belgium"
+		BEL = { change_variable = { which = congo_score value = 1 } }
+	 }
+
+	 option = {
+		name = "Sweden"
+		SWE = { change_variable = { which = congo_score value = 1 } }
+		SCA = { change_variable = { which = congo_score value = 1 } }
+	 }
+
+	 option = {
+		name = "Spain"
+		SPA = { change_variable = { which = congo_score value = 1 } }
+		IBR = { change_variable = { which = congo_score value = 1 } }
+	 }
+}
+country_event = { # 955003 voting event(Sweden,Spain)
+	 id = 955008
+	 title = "The Congo Conference"
+	 desc = ""
+	 picture = "partition_of_africa"
+
+	 is_triggered_only = yes
+
+	 immediate = {
+		set_global_flag = congo_conference_voting
+	}
+
+	 option = {
+		name = "Sweden"
+		SWE = { change_variable = { which = congo_score value = 1 } }
+		SCA = { change_variable = { which = congo_score value = 1 } }
+	 }
+
+	 option = {
+		name = "Spain"
+		SPA = { change_variable = { which = congo_score value = 1 } }
+		IBR = { change_variable = { which = congo_score value = 1 } }
+	 }
+}
+
+country_event = { #Spain/Iberia wins
+	id = 955009
+	title = "The Congo Conference Concludes : Iberian Resolution"
+	desc = ""
+	major = yes
+	picture = "partition_of_africa"
+	trigger = {
+		# ai = no
+		NOT = { has_global_flag = congo_conference_concluded }
+		has_global_flag = berlin_conference
+		has_global_flag = congo_conference_voting
+		1984 = { empty = yes }
+		
+		OR = {
+			OR = {
+				SPA = { AND = { exists = yes check_variable = { which = congo_score value = 5 } } }
+				IBR = { AND = { exists = yes check_variable = { which = congo_score value = 5 } } }
+			}
+			OR = {
+				SPA = { AND = { exists = yes check_variable = { which = congo_score value = 4 } } }
+				IBR = { AND = { exists = yes check_variable = { which = congo_score value = 4 } } }
+			}
+			OR = {
+				SPA = { AND = { exists = yes check_variable = { which = congo_score value = 3 } } }
+				IBR = { AND = { exists = yes check_variable = { which = congo_score value = 3 } } }
+			}
+			AND = {
+
+				OR = {
+					SPA = { AND = { exists = yes check_variable = { which = congo_score value = 2 } } }
+					IBR = { AND = { exists = yes check_variable = { which = congo_score value = 2 } } }
+				}
+				NOT = {
+					BEL = { AND = { exists = yes check_variable = { which = congo_score value = 2 } } }
+					BEL = { AND = { exists = yes check_variable = { which = congo_score value = 3 } } }
+					BEL = { AND = { exists = yes check_variable = { which = congo_score value = 4 } } }
+					BEL = { AND = { exists = yes check_variable = { which = congo_score value = 5 } } }
+					NET = { AND = { exists = yes check_variable = { which = congo_score value = 2 } } }
+					NET = { AND = { exists = yes check_variable = { which = congo_score value = 3 } } }
+					NET = { AND = { exists = yes check_variable = { which = congo_score value = 4 } } }
+					NET = { AND = { exists = yes check_variable = { which = congo_score value = 5 } } }
+					SWE = { AND = { exists = yes check_variable = { which = congo_score value = 2 } } }
+					SWE = { AND = { exists = yes check_variable = { which = congo_score value = 3 } } }
+					SWE = { AND = { exists = yes check_variable = { which = congo_score value = 4 } } }
+					SWE = { AND = { exists = yes check_variable = { which = congo_score value = 5 } } }
+					SCA = { AND = { exists = yes check_variable = { which = congo_score value = 2 } } }
+					SCA = { AND = { exists = yes check_variable = { which = congo_score value = 3 } } }
+					SCA = { AND = { exists = yes check_variable = { which = congo_score value = 4 } } }
+					SCA = { AND = { exists = yes check_variable = { which = congo_score value = 5 } } }
+				}
+			}
+
+			AND = {
+				
+				OR = {
+					SPA = { AND = { exists = yes check_variable = { which = congo_score value = 1 } } }
+					IBR = { AND = { exists = yes check_variable = { which = congo_score value = 1 } } }
+				}
+
+				NOT = {
+					BEL = { AND = { exists = yes check_variable = { which = congo_score value = 1 } } }
+					BEL = { AND = { exists = yes check_variable = { which = congo_score value = 2 } } }
+					BEL = { AND = { exists = yes check_variable = { which = congo_score value = 3 } } }
+					BEL = { AND = { exists = yes check_variable = { which = congo_score value = 4 } } }
+					BEL = { AND = { exists = yes check_variable = { which = congo_score value = 5 } } }
+					NET = { AND = { exists = yes check_variable = { which = congo_score value = 1 } } }
+					NET = { AND = { exists = yes check_variable = { which = congo_score value = 2 } } }
+					NET = { AND = { exists = yes check_variable = { which = congo_score value = 3 } } }
+					NET = { AND = { exists = yes check_variable = { which = congo_score value = 4 } } }
+					NET = { AND = { exists = yes check_variable = { which = congo_score value = 5 } } }
+					SWE = { AND = { exists = yes check_variable = { which = congo_score value = 1 } } }
+					SWE = { AND = { exists = yes check_variable = { which = congo_score value = 2 } } }
+					SWE = { AND = { exists = yes check_variable = { which = congo_score value = 3 } } }
+					SWE = { AND = { exists = yes check_variable = { which = congo_score value = 4 } } }
+					SWE = { AND = { exists = yes check_variable = { which = congo_score value = 5 } } }
+					SCA = { AND = { exists = yes check_variable = { which = congo_score value = 1 } } }
+					SCA = { AND = { exists = yes check_variable = { which = congo_score value = 2 } } }
+					SCA = { AND = { exists = yes check_variable = { which = congo_score value = 3 } } }
+					SCA = { AND = { exists = yes check_variable = { which = congo_score value = 4 } } }
+					SCA = { AND = { exists = yes check_variable = { which = congo_score value = 5 } } }
+				}
+			}			
+		}
+	}
+
+
+	immediate = {
+		set_global_flag = congo_conference_concluded
+		SPA = { set_country_flag = won_congo }
+		IBR = { set_country_flag = won_congo }
+	}
+
+
+	option = {
+		name = "Interesting."
+	}
+}
+
+country_event = { #Sweden wins
+	id = 9550010
+	title = "The Congo Conference Concludes : Scandinavian Resolution"
+	desc = ""
+	major = yes
+	picture = "partition_of_africa"
+	trigger = {
+		# ai = no
+		NOT = { has_global_flag = congo_conference_concluded }
+		has_global_flag = berlin_conference
+		has_global_flag = congo_conference_voting
+		1984 = { empty = yes }
+		
+		OR = {
+			OR = {
+				SWE = { AND = { exists = yes check_variable = { which = congo_score value = 5 } } }
+				SCA = { AND = { exists = yes check_variable = { which = congo_score value = 5 } } }
+			}
+			OR = {
+				SWE = { AND = { exists = yes check_variable = { which = congo_score value = 4 } } }
+				SCA = { AND = { exists = yes check_variable = { which = congo_score value = 4 } } }
+			}
+			OR = {
+				SWE = { AND = { exists = yes check_variable = { which = congo_score value = 3 } } }
+				SCA = { AND = { exists = yes check_variable = { which = congo_score value = 3 } } }
+			}
+
+
+			AND = {
+
+				OR = {
+					SWE = { AND = { exists = yes check_variable = { which = congo_score value = 2 } } }
+					SCA = { AND = { exists = yes check_variable = { which = congo_score value = 2 } } }
+				}
+
+				NOT = {
+					BEL = { AND = { exists = yes check_variable = { which = congo_score value = 2 } } }
+					BEL = { AND = { exists = yes check_variable = { which = congo_score value = 3 } } }
+					BEL = { AND = { exists = yes check_variable = { which = congo_score value = 4 } } }
+					BEL = { AND = { exists = yes check_variable = { which = congo_score value = 5 } } }
+					NET = { AND = { exists = yes check_variable = { which = congo_score value = 2 } } }
+					NET = { AND = { exists = yes check_variable = { which = congo_score value = 3 } } }
+					NET = { AND = { exists = yes check_variable = { which = congo_score value = 4 } } }
+					NET = { AND = { exists = yes check_variable = { which = congo_score value = 5 } } }
+					SPA = { AND = { exists = yes check_variable = { which = congo_score value = 2 } } }
+					SPA = { AND = { exists = yes check_variable = { which = congo_score value = 3 } } }
+					SPA = { AND = { exists = yes check_variable = { which = congo_score value = 4 } } }
+					SPA = { AND = { exists = yes check_variable = { which = congo_score value = 5 } } }
+					IBR = { AND = { exists = yes check_variable = { which = congo_score value = 2 } } }
+					IBR = { AND = { exists = yes check_variable = { which = congo_score value = 3 } } }
+					IBR = { AND = { exists = yes check_variable = { which = congo_score value = 4 } } }
+					IBR = { AND = { exists = yes check_variable = { which = congo_score value = 5 } } }
+				}
+			}
+
+			AND = {
+				
+				OR = {
+					SWE = { AND = { exists = yes check_variable = { which = congo_score value = 1 } } }
+					SCA = { AND = { exists = yes check_variable = { which = congo_score value = 1 } } }
+				}
+				NOT = {
+					BEL = { AND = { exists = yes check_variable = { which = congo_score value = 1 } } }
+					BEL = { AND = { exists = yes check_variable = { which = congo_score value = 2 } } }
+					BEL = { AND = { exists = yes check_variable = { which = congo_score value = 3 } } }
+					BEL = { AND = { exists = yes check_variable = { which = congo_score value = 4 } } }
+					BEL = { AND = { exists = yes check_variable = { which = congo_score value = 5 } } }
+					NET = { AND = { exists = yes check_variable = { which = congo_score value = 1 } } }
+					NET = { AND = { exists = yes check_variable = { which = congo_score value = 2 } } }
+					NET = { AND = { exists = yes check_variable = { which = congo_score value = 3 } } }
+					NET = { AND = { exists = yes check_variable = { which = congo_score value = 4 } } }
+					NET = { AND = { exists = yes check_variable = { which = congo_score value = 5 } } }
+					SPA = { AND = { exists = yes check_variable = { which = congo_score value = 1 } } }
+					SPA = { AND = { exists = yes check_variable = { which = congo_score value = 2 } } }
+					SPA = { AND = { exists = yes check_variable = { which = congo_score value = 3 } } }
+					SPA = { AND = { exists = yes check_variable = { which = congo_score value = 4 } } }
+					SPA = { AND = { exists = yes check_variable = { which = congo_score value = 5 } } }
+					IBR = { AND = { exists = yes check_variable = { which = congo_score value = 1 } } }
+					IBR = { AND = { exists = yes check_variable = { which = congo_score value = 2 } } }
+					IBR = { AND = { exists = yes check_variable = { which = congo_score value = 3 } } }
+					IBR = { AND = { exists = yes check_variable = { which = congo_score value = 4 } } }
+					IBR = { AND = { exists = yes check_variable = { which = congo_score value = 5 } } }
+				}
+			}			
+		}		
+	}
+
+
+	immediate = {
+		set_global_flag = congo_conference_concluded
+		SWE = { set_country_flag = won_congo }
+		SCA = { set_country_flag = won_congo }
+	}
+
+	option = {
+		name = "Interesting."
+	}
+}
+
+country_event = { #Belgium wins
+	id = 9550011
+	title = "The Congo Conference Concludes : Belgian Resolution"
+	desc = ""
+	major = yes
+	picture = "partition_of_africa"
+	trigger = {
+		# ai = no
+		NOT = { has_global_flag = congo_conference_concluded }
+		has_global_flag = berlin_conference
+		has_global_flag = congo_conference_voting
+		1984 = { empty = yes }
+		
+		OR = {
+			BEL = { AND = { exists = yes check_variable = { which = congo_score value = 5 } } }
+			BEL = { AND = { exists = yes check_variable = { which = congo_score value = 4 } } } 
+			BEL = { AND = { exists = yes check_variable = { which = congo_score value = 3 } } }
+			
+			AND = {
+				BEL = { AND = { exists = yes check_variable = { which = congo_score value = 2 } } }
+				NOT = {
+					NET = { AND = { exists = yes check_variable = { which = congo_score value = 2 } } }
+					NET = { AND = { exists = yes check_variable = { which = congo_score value = 3 } } }
+					NET = { AND = { exists = yes check_variable = { which = congo_score value = 4 } } }
+					NET = { AND = { exists = yes check_variable = { which = congo_score value = 5 } } }
+					SWE = { AND = { exists = yes check_variable = { which = congo_score value = 2 } } }
+					SWE = { AND = { exists = yes check_variable = { which = congo_score value = 3 } } }
+					SWE = { AND = { exists = yes check_variable = { which = congo_score value = 4 } } }
+					SWE = { AND = { exists = yes check_variable = { which = congo_score value = 5 } } }
+					SCA = { AND = { exists = yes check_variable = { which = congo_score value = 2 } } }
+					SCA = { AND = { exists = yes check_variable = { which = congo_score value = 3 } } }
+					SCA = { AND = { exists = yes check_variable = { which = congo_score value = 4 } } }
+					SCA = { AND = { exists = yes check_variable = { which = congo_score value = 5 } } }
+					SPA = { AND = { exists = yes check_variable = { which = congo_score value = 2 } } }
+					SPA = { AND = { exists = yes check_variable = { which = congo_score value = 3 } } }
+					SPA = { AND = { exists = yes check_variable = { which = congo_score value = 4 } } }
+					SPA = { AND = { exists = yes check_variable = { which = congo_score value = 5 } } }
+					IBR = { AND = { exists = yes check_variable = { which = congo_score value = 2 } } }
+					IBR = { AND = { exists = yes check_variable = { which = congo_score value = 3 } } }
+					IBR = { AND = { exists = yes check_variable = { which = congo_score value = 4 } } }
+					IBR = { AND = { exists = yes check_variable = { which = congo_score value = 5 } } }
+				}
+			}
+
+			AND = {
+				BEL = { AND = { exists = yes check_variable = { which = congo_score value = 1 } } }
+				NOT = {
+					NET = { AND = { exists = yes check_variable = { which = congo_score value = 1 } } }
+					NET = { AND = { exists = yes check_variable = { which = congo_score value = 2 } } }
+					NET = { AND = { exists = yes check_variable = { which = congo_score value = 3 } } }
+					NET = { AND = { exists = yes check_variable = { which = congo_score value = 4 } } }
+					NET = { AND = { exists = yes check_variable = { which = congo_score value = 5 } } }
+					SWE = { AND = { exists = yes check_variable = { which = congo_score value = 1 } } }
+					SWE = { AND = { exists = yes check_variable = { which = congo_score value = 2 } } }
+					SWE = { AND = { exists = yes check_variable = { which = congo_score value = 3 } } }
+					SWE = { AND = { exists = yes check_variable = { which = congo_score value = 4 } } }
+					SWE = { AND = { exists = yes check_variable = { which = congo_score value = 5 } } }
+					SCA = { AND = { exists = yes check_variable = { which = congo_score value = 1 } } }
+					SCA = { AND = { exists = yes check_variable = { which = congo_score value = 2 } } }
+					SCA = { AND = { exists = yes check_variable = { which = congo_score value = 3 } } }
+					SCA = { AND = { exists = yes check_variable = { which = congo_score value = 4 } } }
+					SCA = { AND = { exists = yes check_variable = { which = congo_score value = 5 } } }
+					SPA = { AND = { exists = yes check_variable = { which = congo_score value = 2 } } }
+					SPA = { AND = { exists = yes check_variable = { which = congo_score value = 3 } } }
+					SPA = { AND = { exists = yes check_variable = { which = congo_score value = 4 } } }
+					SPA = { AND = { exists = yes check_variable = { which = congo_score value = 5 } } }
+					IBR = { AND = { exists = yes check_variable = { which = congo_score value = 1 } } }
+					IBR = { AND = { exists = yes check_variable = { which = congo_score value = 2 } } }
+					IBR = { AND = { exists = yes check_variable = { which = congo_score value = 3 } } }
+					IBR = { AND = { exists = yes check_variable = { which = congo_score value = 4 } } }
+					IBR = { AND = { exists = yes check_variable = { which = congo_score value = 5 } } }
+				}
+			}
+		}
+	}
+
+
+	immediate = {
+		set_global_flag = congo_conference_concluded
+		BEL = { set_country_flag = won_congo }
+	}
+
+	option = {
+		name = "Interesting."
+	}
+}
+
+country_event = { #Netherlands wins
+	id = 9550012
+	title = "The Congo Conference Concludes : Dutch Resolution"
+	desc = ""
+	major = yes
+	picture = "partition_of_africa"
+	trigger = {
+		# ai = no
+		NOT = { has_global_flag = congo_conference_concluded }
+		has_global_flag = berlin_conference
+		has_global_flag = congo_conference_voting
+		1984 = { empty = yes }
+
+		OR = {
+			NET = { AND = { exists = yes check_variable = { which = congo_score value = 5 } } }
+			NET = { AND = { exists = yes check_variable = { which = congo_score value = 4 } } } 
+			NET = { AND = { exists = yes check_variable = { which = congo_score value = 3 } } }
+			
+			AND = {
+				NET = { AND = { exists = yes check_variable = { which = congo_score value = 2 } } }
+
+				NOT = {
+					BEL = { AND = { exists = yes check_variable = { which = congo_score value = 2 } } }
+					BEL = { AND = { exists = yes check_variable = { which = congo_score value = 3 } } }
+					BEL = { AND = { exists = yes check_variable = { which = congo_score value = 4 } } }
+					BEL = { AND = { exists = yes check_variable = { which = congo_score value = 5 } } }
+					SWE = { AND = { exists = yes check_variable = { which = congo_score value = 2 } } }
+					SWE = { AND = { exists = yes check_variable = { which = congo_score value = 3 } } }
+					SWE = { AND = { exists = yes check_variable = { which = congo_score value = 4 } } }
+					SWE = { AND = { exists = yes check_variable = { which = congo_score value = 5 } } }
+					SCA = { AND = { exists = yes check_variable = { which = congo_score value = 2 } } }
+					SCA = { AND = { exists = yes check_variable = { which = congo_score value = 3 } } }
+					SCA = { AND = { exists = yes check_variable = { which = congo_score value = 4 } } }
+					SCA = { AND = { exists = yes check_variable = { which = congo_score value = 5 } } }
+					SPA = { AND = { exists = yes check_variable = { which = congo_score value = 2 } } }
+					SPA = { AND = { exists = yes check_variable = { which = congo_score value = 3 } } }
+					SPA = { AND = { exists = yes check_variable = { which = congo_score value = 4 } } }
+					SPA = { AND = { exists = yes check_variable = { which = congo_score value = 5 } } }
+					IBR = { AND = { exists = yes check_variable = { which = congo_score value = 2 } } }
+					IBR = { AND = { exists = yes check_variable = { which = congo_score value = 3 } } }
+					IBR = { AND = { exists = yes check_variable = { which = congo_score value = 4 } } }
+					IBR = { AND = { exists = yes check_variable = { which = congo_score value = 5 } } }
+				}
+			}
+
+			AND = {
+				NET = { AND = { exists = yes check_variable = { which = congo_score value = 1 } } }
+
+				NOT = {
+					BEL = { AND = { exists = yes check_variable = { which = congo_score value = 1 } } }
+					BEL = { AND = { exists = yes check_variable = { which = congo_score value = 2 } } }
+					BEL = { AND = { exists = yes check_variable = { which = congo_score value = 3 } } }
+					BEL = { AND = { exists = yes check_variable = { which = congo_score value = 4 } } }
+					BEL = { AND = { exists = yes check_variable = { which = congo_score value = 5 } } }
+					SWE = { AND = { exists = yes check_variable = { which = congo_score value = 1 } } }
+					SWE = { AND = { exists = yes check_variable = { which = congo_score value = 2 } } }
+					SWE = { AND = { exists = yes check_variable = { which = congo_score value = 3 } } }
+					SWE = { AND = { exists = yes check_variable = { which = congo_score value = 4 } } }
+					SWE = { AND = { exists = yes check_variable = { which = congo_score value = 5 } } }
+					SCA = { AND = { exists = yes check_variable = { which = congo_score value = 1 } } }
+					SCA = { AND = { exists = yes check_variable = { which = congo_score value = 2 } } }
+					SCA = { AND = { exists = yes check_variable = { which = congo_score value = 3 } } }
+					SCA = { AND = { exists = yes check_variable = { which = congo_score value = 4 } } }
+					SCA = { AND = { exists = yes check_variable = { which = congo_score value = 5 } } }
+					SPA = { AND = { exists = yes check_variable = { which = congo_score value = 1 } } }
+					SPA = { AND = { exists = yes check_variable = { which = congo_score value = 2 } } }
+					SPA = { AND = { exists = yes check_variable = { which = congo_score value = 3 } } }
+					SPA = { AND = { exists = yes check_variable = { which = congo_score value = 4 } } }
+					SPA = { AND = { exists = yes check_variable = { which = congo_score value = 5 } } }
+					IBR = { AND = { exists = yes check_variable = { which = congo_score value = 1 } } }
+					IBR = { AND = { exists = yes check_variable = { which = congo_score value = 2 } } }
+					IBR = { AND = { exists = yes check_variable = { which = congo_score value = 3 } } }
+					IBR = { AND = { exists = yes check_variable = { which = congo_score value = 4 } } }
+					IBR = { AND = { exists = yes check_variable = { which = congo_score value = 5 } } }
+				}
+			}
+		}
+	}
+
+	immediate = {
+		set_global_flag = congo_conference_concluded
+		NET = { set_country_flag = won_congo }
+	}
+	option = {
+		name = "Interesting."
+	}
+}
+
+
+country_event = {
+	id = 955013
+	title = "The Congo Conference Fails"
+	desc = "No nation received majority support for their claims."
+	major = yes
+	picture = "partition_of_africa"
+
+	trigger = {
+		NOT = { has_global_flag = congo_conference_concluded }
+		has_global_flag = berlin_conference
+		has_global_flag = congo_conference_voting
+		NOT = {
+			SPA = { has_country_flag = won_congo }
+			IBR = { has_country_flag = won_congo }
+			SWE = { has_country_flag = won_congo }
+			SCA = { has_country_flag = won_congo }
+			BEL = { has_country_flag = won_congo }
+			SPA = { has_country_flag = won_congo }
+		}
+	}
+
+	immediate = {
+		set_global_flag = congo_conference_concluded
+	}
+
+	option = {
+		name = "What a waste of time."
+	}
+}
+country_event = {
+	id = 9550014
+	title = "The Jewel of Africa"
+	desc = ""
+	picture = "partition_of_africa"
+
+
+	trigger = {
+		has_country_flag = won_congo
+		exists = yes
+	}
+
+	fire_only_once = yes
+	mean_time_to_happen = {
+		days = 2
+	}
+
+	option = {
+		name = "A Glorious Day For Our Nation!"
+		BEL_1977 = { secede_province = THIS }
+		BEL_1984 = { secede_province = THIS }
+		BEL_1987 = { secede_province = THIS }
+		BEL_1992 = { secede_province = THIS }
+		BEL_1996 = { secede_province = THIS }
+		BEL_1990 = { secede_province = THIS }
 	}
 }
 
