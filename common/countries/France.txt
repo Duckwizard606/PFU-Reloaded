@@ -1,4 +1,5 @@
-color = { 20 50 210 }
+#color = { 20 50 210 }
+color = { 89 103 255 }
 fascist_dictatorship = { 25 25 75 }
 graphical_culture = FrenchGC
 

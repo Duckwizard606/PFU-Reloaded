@@ -1,5 +1,6 @@
 graphical_culture = UsGC
-color = { 0  130  255 }
+#color = { 0  130  255 }
+color = { 25 78 225 }
 proletarian_dictatorship = { 180 10 10 }
 fascist_dictatorship = { 25 25 50 }
 

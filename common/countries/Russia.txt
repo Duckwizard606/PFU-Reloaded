@@ -1,5 +1,6 @@
 #color = { 73  152  76 }
-color = { 0 86 63 }		#CWV #1: Sacramento Green
+#color = { 0 86 63 }		#CWV #1: Sacramento Green
+color = { 73 125 70 }
 proletarian_dictatorship = { 200 10 10 }
 graphical_culture = RussianGC
 
