@@ -40,8 +40,8 @@ country_event = {
 			}
 		}
 		capital_scope = { continent = europe }
-		# invention = the_white_mans_burden
-		# invention = indigenous_garrisoning
+		invention = the_white_mans_burden
+		invention = indigenous_garrisoning
 		NOT = { has_global_flag = berlin_conference }
 	}
 
@@ -159,8 +159,8 @@ country_event = {
 			}
 		}
 		capital_scope = { continent = europe }
-		# invention = the_white_mans_burden
-		# invention = indigenous_garrisoning
+		invention = the_white_mans_burden
+		invention = indigenous_garrisoning
 		NOT = { has_global_flag = berlin_conference }
 	}
 
@@ -279,8 +279,8 @@ country_event = {
 			}
 		}
 		capital_scope = { continent = europe }
-		# invention = the_white_mans_burden
-		# invention = indigenous_garrisoning
+		invention = the_white_mans_burden
+		invention = indigenous_garrisoning
 		NOT = { has_global_flag = berlin_conference }
 	}
 
@@ -398,8 +398,8 @@ country_event = {
 			}
 		}
 		capital_scope = { continent = europe }
-		# invention = the_white_mans_burden
-		# invention = indigenous_garrisoning
+		invention = the_white_mans_burden
+		invention = indigenous_garrisoning
 		NOT = { has_global_flag = berlin_conference }
 	}
 
@@ -517,8 +517,8 @@ country_event = {
 			}
 		}
 		capital_scope = { continent = europe }
-		# invention = the_white_mans_burden
-		# invention = indigenous_garrisoning
+		invention = the_white_mans_burden
+		invention = indigenous_garrisoning
 		NOT = { has_global_flag = berlin_conference }
 	}
 
