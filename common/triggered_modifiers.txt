@@ -293,3 +293,23 @@ economic_boom = {
 	tariff_efficiency_modifier = 0.05
 	icon = 6
 }
+
+dominion = {
+	trigger = {
+		is_vassal = yes
+		exists = yes
+		civilized = yes
+	}
+	prestige = -2
+	icon = 10
+}
+
+vassal_nation = {
+	trigger = {
+		exists = yes
+		is_vassal = yes
+		is_substate = no
+	}
+	icon = 10
+	prestige = -2
+}

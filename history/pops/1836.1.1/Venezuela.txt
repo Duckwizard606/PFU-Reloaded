@@ -469,26 +469,26 @@
 	}
 
 	clergymen = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = catholic
 		size = 25
 	}
 
 	artisans = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = catholic
 		size = 100
 	}
 
 	soldiers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = catholic
 		size = 25
 
 	}
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = catholic
 		size = 1850
 	}
@@ -637,26 +637,26 @@
 	}
 
 	clergymen = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = catholic
 		size = 10
 	}
 
 	artisans = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = catholic
 		size = 50
 	}
 
 	soldiers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = catholic
 		size = 10
 
 	}
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = catholic
 		size = 930
 	}

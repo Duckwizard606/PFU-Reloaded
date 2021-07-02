@@ -1632,19 +1632,19 @@ prussian_general_staff = {
 	mobilisation_economy_impact = -0.25
 	land_unit_start_experience = 10
 	mobilisation_size = 0.01
-	leadership_modifier = 2
+	leadership_modifier = 1
 	army_tech_research_bonus = 0.05
 	icon = 15
 }
 
 german_general_staff = {
-	org_regain = 0.25
-	land_organisation = 0.25
+	org_regain = 0.15
+	land_organisation = 0.20
 	mobilisation_economy_impact = -0.25
-	land_unit_start_experience = 20
-	mobilisation_size = 0.05
-	leadership_modifier = 3
-	army_tech_research_bonus = 0.1
+	land_unit_start_experience = 15
+	mobilisation_size = 0.04
+	leadership_modifier = 1
+	army_tech_research_bonus = 0.05
 	icon = 15
 }
 

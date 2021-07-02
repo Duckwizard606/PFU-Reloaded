@@ -59,44 +59,6 @@ army = {
 	}
 
 }
-army = {
-
-	name = "Activo Oajaca"
-
-	location = 2177
-
-	regiment = {
-
-		name = "1. Oajaca y Tlaxcala"
-
-		type = infantry
-		
-		home = 2172
-
-	}
-
-
-	regiment = {
-
-		name = "2. Oajaca y Tlaxcala"
-
-		type = infantry
-		
-		home = 2172
-
-	}
-	
-	regiment = {
-
-		name = "3. Oajaca y Tlaxcala"
-
-		type = infantry
-		
-		home = 2172
-
-	}
-
-}
 navy = {
 
 	name = "Armada de Mexico"

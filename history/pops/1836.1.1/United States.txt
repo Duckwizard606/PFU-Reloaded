@@ -46,19 +46,19 @@
 	}
 
 	aristocrats = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 50
 	}
 	
 	aristocrats = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 50
 	}
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 1950
 	}
@@ -91,7 +91,7 @@
 	}
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 1010
 	}
@@ -124,13 +124,13 @@
 	}
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 405
 	}
 	
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 100
 	}
@@ -169,7 +169,7 @@
 	}
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 380
 	}
@@ -202,13 +202,13 @@
 	}
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 325
 	}
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 250
 	}
@@ -217,7 +217,7 @@
 2599 = {
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 545
 	}
@@ -226,7 +226,7 @@
 2630 = {
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 400
 	}
@@ -259,7 +259,7 @@
 	}
 	
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 600
 	}
@@ -293,7 +293,7 @@
 	}
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 3110
 	}
@@ -326,7 +326,7 @@
 	}
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 1000
 	}
@@ -370,19 +370,19 @@
 	}
 
 	aristocrats = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 100
 	}
 
 	soldiers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 100
 	}
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 900
 	}
@@ -392,25 +392,25 @@
 #Portland (12000/3000 POPS)
 81 = {
 	aristocrats = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 50
 	}
 
 	clergymen = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 175
 	}
 
 	soldiers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 25
 	}
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 2700
 	}
@@ -424,25 +424,25 @@
 #Baker City (4000/1000 POPS)
 82 = {
 	aristocrats = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 10
 	}
 
 	clergymen = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 45
 	}
 
 	soldiers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 15
 	}
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 900
 	}
@@ -457,25 +457,25 @@
 #Klamath Falls (4000/1000 POPS)
 83 = {
 	aristocrats = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 10
 	}
 
 	clergymen = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 35
 	}
 
 	soldiers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 15
 	}
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 900
 	}
@@ -540,31 +540,31 @@
 	}
 	
 	aristocrats = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 25
 	}
 
 	clergymen = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 50
 	}
 
 	artisans = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 100
 	}
 
 	soldiers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 25
 	}
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 1800
 	}
@@ -572,25 +572,25 @@
 #Eureka (4000/1000 POPS)
 85 = {
 	aristocrats = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 10
 	}
 
 	clergymen = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 25
 	}
 
 	soldiers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 15
 	}
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 900
 	}
@@ -598,25 +598,25 @@
 #Sacramento (12000/3000 POPS)
 86 = {
 	aristocrats = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 50
 	}
 
 	clergymen = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 75
 	}
 
 	soldiers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 25
 	}
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 1700
 	}
@@ -678,31 +678,31 @@
 	}
 
 	aristocrats = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 10
 	}
 
 	clergymen = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 25
 	}
 
 	artisans = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 50
 	}
 
 	soldiers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 15
 	}
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 900
 	}
@@ -710,25 +710,25 @@
 #Mariposa (8000/2000 POPS)
 88 = {
 	aristocrats = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 25
 	}
 
 	clergymen = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 50
 	}
 
 	soldiers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 25
 	}
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 1800
 	}
@@ -759,25 +759,25 @@
 	}
 
 	aristocrats = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 25
 	}
 
 	clergymen = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 50
 	}
 
 	soldiers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 25
 	}
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 900
 	}
@@ -839,19 +839,19 @@
 	}
 
 	clergymen = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 25
 	}
 
 	soldiers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 25
 	}
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 800
 	}
@@ -891,25 +891,25 @@
 #Boise (8000/2000 POPS)
 91 = {
 	aristocrats = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 25
 	}
 
 	clergymen = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 50
 	}
 
 	soldiers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 25
 	}
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 1800
 	}
@@ -942,13 +942,13 @@
 	}
 
 	soldiers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 150
 	}
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 900
 	}
@@ -981,13 +981,13 @@
 	}
 
 	soldiers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 100
 	}
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 2700
 	}
@@ -997,25 +997,25 @@
 #Carson City (4000/1000 POPS)
 94 = {
 	aristocrats = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 10
 	}
 
 	clergymen = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 25
 	}
 
 	soldiers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 15
 	}
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 900
 	}
@@ -1023,25 +1023,25 @@
 #Elko (4000/1000 POPS)
 95 = {
 	aristocrats = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 10
 	}
 
 	clergymen = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 25
 	}
 
 	soldiers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 15
 	}
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 900
 	}
@@ -1049,25 +1049,25 @@
 #Las Vegas (4000/1000 POPS)
 96 = {
 	aristocrats = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 10
 	}
 
 	clergymen = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 25
 	}
 
 	soldiers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 15
 	}
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 900
 	}
@@ -1077,31 +1077,31 @@
 #Salt Lake City (8000/2000 POPS)
 97 = {
 	aristocrats = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 25
 	}
 
 	clergymen = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 50
 	}
 
 	artisans = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 100
 	}
 
 	soldiers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 25
 	}
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 1800
 	}
@@ -1109,25 +1109,25 @@
 #Loa (4000/1000 POPS)
 98 = {
 	aristocrats = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 10
 	}
 
 	clergymen = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 25
 	}
 
 	soldiers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 15
 	}
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 900
 	}
@@ -1135,25 +1135,25 @@
 #Moab (4000/1000 POPS)
 99 = {
 	aristocrats = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 10
 	}
 
 	clergymen = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 25
 	}
 
 	soldiers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 15
 	}
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 900
 	}
@@ -1163,37 +1163,37 @@
 #Phoenix (12000/3000 POPS)
 100 = {
 	aristocrats = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 50
 	}
 
 	clergymen = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 75
 	}
 
 	artisans = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 150
 	}
 
 	soldiers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 25
 	}
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 2000
 	}
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 700
 	}
@@ -1201,61 +1201,61 @@
 #Flagstaff (12000/3000 POPS)
 101 = {
 	aristocrats = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 25
 	}
 
 	clergymen = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 50
 	}
 
 	artisans = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 100
 	}
 
 	soldiers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 25
 	}
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 1500
 	}
 
 	aristocrats = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 10
 	}
 
 	clergymen = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 25
 	}
 
 	artisans = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 50
 	}
 
 	soldiers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 15
 	}
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 1200
 	}
@@ -1264,25 +1264,25 @@
 #Tucson (13000/3250 POPS)
 102 = {
 	aristocrats = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 50
 	}
 
 	clergymen = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 75
 	}
 
 	soldiers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 25
 	}
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 2700
 	}
@@ -1336,31 +1336,31 @@
 	}
 
 	aristocrats = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 10
 	}
 
 	clergymen = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 25
 	}
 
 	artisans = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 50
 	}
 
 	soldiers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 15
 	}
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 900
 	}
@@ -1369,25 +1369,25 @@
 #San Francisco (20000/5000 POPS)
 104 = {
 	aristocrats = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 10
 	}
 
 	clergymen = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 25
 	}
 
 	soldiers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 15
 	}
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 500
 	}
@@ -1461,13 +1461,13 @@
 	}
 	
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 450
 	}
 	
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 750
 	}
@@ -1514,19 +1514,19 @@
 	}
 
 	aristocrats = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 100
 	}
 
 	soldiers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 100
 	}
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 1950
 	}
@@ -1534,25 +1534,25 @@
 #Grand Junction (4000/1000 POPS)
 107 = {
 	aristocrats = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 10
 	}
 
 	clergymen = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 25
 	}
 
 	soldiers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 15
 	}
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 400
 	}
@@ -1560,57 +1560,57 @@
 #Alamosa (4000/1000 POPS)
 108 = {
 	aristocrats = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 10
 	}
 
 	clergymen = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 25
 	}
 
 	soldiers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 15
 	}
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 900
 	}
 }
-#naafrican_minore_american_minor (4000/1000 POPS)
+#native_american_minor (4000/1000 POPS)
 109 = {
 	aristocrats = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 10
 	}
 
 	clergymen = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 25
 	}
 
 	artisans = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 50
 	}
 
 	soldiers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 15
 	}
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 900
 	}
@@ -1620,31 +1620,31 @@
 #Cheyenne (8000/2000 POPS)
 110 = {
 	aristocrats = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 25
 	}
 
 	clergymen = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 50
 	}
 
 	artisans = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 100
 	}
 
 	soldiers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 25
 	}
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 1800
 	}
@@ -1677,19 +1677,19 @@
 	}
 	
 	aristocrats = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 50
 	}
 
 	soldiers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 100
 	}
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 2900
 	}
@@ -1733,19 +1733,19 @@
 	}
 
 	aristocrats = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 100
 	}
 
 	soldiers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 100
 	}
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 1950
 	}
@@ -1792,25 +1792,25 @@
 	}
 
 	aristocrats = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 150
 	}
 	
 	aristocrats = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 150
 	}
 
 	soldiers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 100
 	}
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 1800
 	}
@@ -1843,13 +1843,13 @@
 	}
 
 	soldiers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 100
 	}
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 900
 	}
@@ -1882,25 +1882,25 @@
 	}
 
 	soldiers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 100
 	}
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 900
 	}
 
 	soldiers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 100
 	}
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 900
 	}
@@ -1933,30 +1933,30 @@
 	}
 
 	soldiers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 100
 	}
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 900
 	}
 
 	soldiers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 200
 	}
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 1800
 	}
 }
-#North naafrican_minore_american_minor Region (24000)
+#North native_american_minor Region (24000)
 #"ruled" by the USA/de facto under Naafrican_minore Control
 #Bismarck (8000/2000 POPS)
 117 = {
@@ -1997,25 +1997,25 @@
 	}
 
 	aristocrats = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 100
 	}
 	
 	aristocrats = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 100
 	}
 
 	soldiers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 300
 	}
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 1800
 	}
@@ -2060,25 +2060,25 @@
 	}
 
 	soldiers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 100
 	}
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 900
 	}
 
 	soldiers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 100
 	}
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 900
 	}
@@ -2111,30 +2111,30 @@
 	}
 	
 	soldiers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 100
 	}
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 900
 	}
 
 	soldiers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 100
 	}
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 900
 	}
 }
-#South naafrican_minore_american_minor Region (24000)
+#South native_american_minor Region (24000)
 #"ruled" by the USA/de facto under Naafrican_minore Control
 #Sioux Falls (8000/2000 POPS)
 120 = {
@@ -2176,37 +2176,37 @@
 	}
 
 	aristocrats = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 100
 	}
 
 	soldiers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 100
 	}
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 900
 	}
 
 	aristocrats = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 100
 	}
 
 	soldiers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 100
 	}
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 900
 	}
@@ -2238,13 +2238,13 @@
 	}
 	
 	soldiers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 100
 	}
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 1800
 	}
@@ -2277,25 +2277,25 @@
 	}
 
 	soldiers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 100
 	}
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 900
 	}
 
 	soldiers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 100
 	}
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 900
 	}
@@ -2342,37 +2342,37 @@
 	}
 
 	aristocrats = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 100
 	}
 
 	soldiers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 150
 	}
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 400
 	}
 
 	aristocrats = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 100
 	}
 
 	soldiers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 150
 	}
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 400
 	}
@@ -2405,13 +2405,13 @@
 	}
 
 	soldiers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 100
 	}
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 400
 	}
@@ -2444,13 +2444,13 @@
 	}
 
 	soldiers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 200
 	}
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 800
 	}
@@ -2497,20 +2497,20 @@
 	}
 
 	aristocrats = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 100
 	}
 
 
 	soldiers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 150
 	}
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 1800
 	}
@@ -2543,13 +2543,13 @@
 	}
 
 	soldiers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 200
 	}
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 1800
 	}
@@ -2557,31 +2557,31 @@
 #Wichita (8000/2000 POPS)
 128 = {
 	aristocrats = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 5
 	}
 
 	clergymen = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 10
 	}
 
 	artisans = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 20
 	}
 
 	soldiers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 5
 	}
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 360
 	}
@@ -2591,13 +2591,13 @@
 #Oklahoma City (12000/3000 POPS)
 129 = {
 	aristocrats = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 4
 	}
 
 	clergymen = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 8
 	}
@@ -2609,19 +2609,19 @@
 	}
 
 	artisans = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 20
 	}
 
 	soldiers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 4
 	}
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 300
 	}
@@ -2654,13 +2654,13 @@
 	}
 	
 	soldiers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 100
 	}
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 300
 	}
@@ -2705,19 +2705,19 @@
 	}
 
 	aristocrats = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 100
 	}
 
 	soldiers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 100
 	}
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 800
 	}
@@ -2775,31 +2775,31 @@
 	}
 
 	aristocrats = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 10
 	}
 
 	clergymen = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 20
 	}
 
 	artisans = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 300
 	}
 
 	soldiers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 30
 	}
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 500
 	}
@@ -2863,13 +2863,13 @@
 	}
 	
 	aristocrats = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 100
 	}
 	
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 900
 	}
@@ -2915,31 +2915,31 @@
 	}
 
 	aristocrats = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 20
 	}
 
 	clergymen = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 30
 	}
 
 	artisans = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 500
 	}
 
 	soldiers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 300
 	}
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 900
 	}
@@ -2959,14 +2959,14 @@
 #Larafrican_minor (6000/1500 POPS)
 138 = {
 	aristocrats = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 10
 		militancy = 9
 	}
 
 	soldiers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 100
 
@@ -2974,7 +2974,7 @@
 	}
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 900
 		militancy = 9
@@ -3063,13 +3063,13 @@
 	}
 
 	soldiers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 100
 	}
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 2000
 	}
@@ -3102,19 +3102,19 @@
 	}
 
 	aristocrats = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 25
 	}
 
 	soldiers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 500
 	}
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 950
 	}
@@ -3122,14 +3122,14 @@
 #El Paso (9000/2250 POPS)
 136 = {
 	aristocrats = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 25
 		militancy = 9
 	}
 	
 	soldiers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 175
 
@@ -3137,7 +3137,7 @@
 	}
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 1800
 		militancy = 9
@@ -3953,37 +3953,37 @@
 	}
 
 	aristocrats = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 100
 	}
 	
 	aristocrats = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 100
 	}
 
 	clergymen = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 100
 	}
 
 	artisans = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 100
 	}
 
 	soldiers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 100
 	}
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 1800
 	}
@@ -4041,19 +4041,19 @@
 	}
 
 	aristocrats = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 10
 	}
 
 	soldiers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 50
 	}
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 975
 	}
@@ -4086,13 +4086,13 @@
 	}
 
 	soldiers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 100
 	}
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 1800
 	}
@@ -4139,37 +4139,37 @@
 	}
 
 	aristocrats = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 100
 	}
 
 	soldiers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 150
 	}
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 900
 	}
 
 	aristocrats = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 100
 	}
 	
 	soldiers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 150
 	}
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 900
 	}
@@ -4214,13 +4214,13 @@
 	}
 
 	soldiers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 200
 	}
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 1800
 	}
@@ -4253,25 +4253,25 @@
 	}
 
 	soldiers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 150
 	}
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 900
 	}
 
 	soldiers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 150
 	}
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 900
 	}
@@ -4303,7 +4303,7 @@
 	}
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 963
 	}
@@ -4376,13 +4376,13 @@
 	}
 
 	soldiers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 150
 	}
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 900
 	}
@@ -4414,31 +4414,31 @@
 	}
 
 	aristocrats = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 10
 	}
 
 	clergymen = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 25
 	}
 
 	artisans = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 50
 	}
 
 	soldiers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 15
 	}
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 900
 	}
@@ -4973,31 +4973,31 @@
 	}
 
 	aristocrats = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 10
 	}
 
 	clergymen = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 125
 	}
 
 	artisans = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 50
 	}
 
 	soldiers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 15
 	}
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 900
 	}
@@ -5029,31 +5029,31 @@
 	}
 
 	aristocrats = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 25
 	}
 
 	clergymen = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 75
 	}
 
 	artisans = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 100
 	}
 
 	soldiers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 25
 	}
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 1800
 	}
@@ -8905,7 +8905,7 @@
 	}
 
 	artisans = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 23
 	}
@@ -8923,7 +8923,7 @@
 	}
 	
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 400
 	}
@@ -8933,7 +8933,7 @@
 3249 = {
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 250
 	}

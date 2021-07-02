@@ -11,6 +11,7 @@ political_decisions = {
 			is_vassal = no
 		}
 		effect = {
+		prestige = 50
 			set_country_flag = canadian_dominion
 			any_pop = {
 				militancy = -4

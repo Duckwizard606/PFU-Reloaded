@@ -14512,10 +14512,6 @@ form_north_german_confederation = {
 			any_pop = { limit = { has_pop_religion = animist } literacy = -0.5 }
 			any_country = { limit = { exists = yes has_pop_type = slaves } slaves = { literacy = -0.99 } }
 			
-			#########Serfs##########
-			any_country = { limit = { exists = yes } any_pop = { limit = { has_pop_culture = native_american_minor } pop_type = serfs } }
-			any_country = { limit = { exists = yes } any_pop = { limit = { has_pop_culture = maori } pop_type = serfs } }
-			any_country = { limit = { exists = yes } any_pop = { limit = { has_pop_culture = aborigine } pop_type = serfs } }
 			
 		    #################Giving Starting Money to Pops and Countries######################
 			any_country = { limit = { is_greater_power = yes } capitalists = { money = 1000 } aristocrats = { money = 500 } artisans = { money = 200 } }
@@ -17122,7 +17118,7 @@ form_north_german_confederation = {
 		
 	#######Unciv########
 		enact_muhammad_alis_reforms = {
-		potential = {
+			potential = {
 			tag = EGY
 			civilized = no
 			NOT = { 

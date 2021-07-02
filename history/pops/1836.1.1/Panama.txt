@@ -334,32 +334,32 @@
 	}
 
 	aristocrats = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 15
 	}
 
 	clergymen = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 25
 	}
 
 	artisans = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 50
 	}
 
 	soldiers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 10
 
 	}
 
 	farmers = {
-		culture = naafrican_minore_american_minor
+		culture = native_american_minor
 		religion = animist
 		size = 900
 	}
