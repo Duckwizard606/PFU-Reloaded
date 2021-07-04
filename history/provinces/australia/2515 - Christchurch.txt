@@ -1,17 +1,8 @@
 owner = ENG
 controller = ENG
 add_core = ENG
+add_core = AST
 colonial = 1
 trade_goods = wool
 life_rating = 30
 terrain = christchurch
-<<<<<<< HEAD
-=======
-colonial = 2
-naval_base = 1
-1861.1.1 = {
-	owner = ENG
-	controller = ENG
-	colonial = 2
-}
->>>>>>> DDM-ports
