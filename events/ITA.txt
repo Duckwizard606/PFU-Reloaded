@@ -120,10 +120,6 @@ country_event = {
 		}
 	}
 
-	mean_time_to_happen = {
-		days = 7
-	}
-
 	immediate = {
 		set_global_flag = five_days_of_milan_occurred
 		LOM = { government = democracy }
@@ -131,47 +127,11 @@ country_event = {
 		relation = { who = LOM value = -100 }
 		prestige = -15
 	}
-
 	option = {
-		name = "EVTOPTA202000"
+		name = "Bring me Radetzky!"
 		war = {
 			target = LOM
 			attacker_goal = { casus_belli = annex_core_country } 
-		}
-		ai_chance = {
-			factor = 99
-		}
-	}
-
-	option = {
-		name = "EVTOPTB202000"
-		set_country_flag = austria_let_milan_go
-		prestige = -25
-		casus_belli = {
-			target = LOM
-			type = conquest
-			months = 60
-		}
-		any_pop = {
-			limit = {
-				has_pop_culture = romanian
-				location = { is_core = ROM }
-			}
-			militancy = 1
-		}
-		any_pop = {
-			limit = {
-				has_pop_culture = polish
-				location = { is_core = POL }
-			}
-			militancy = 1
-		}
-		ai_chance = {
-			factor = 1
-			modifier = {
-				factor = 5
-				any_greater_power = { war_with = THIS }
-			}
 		}
 	}
 }
@@ -205,10 +165,6 @@ country_event = {
 		exists = VEN
 		LOM = { owns = 726 }
 		NOT = { truce_with = AUS }
-	}
-
-	mean_time_to_happen = {
-		days = 1
 	}
 
 	option = {
@@ -517,7 +473,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 12
+		months = 8
 		modifier = {
 			factor = 1.5
 			any_pop = {
@@ -637,84 +593,6 @@ country_event = {
 			}
 		}
 	}
-	option = {
-		name = "Dissolve the Kingdom of Lombardy-Venetia."
-		badboy = -10
-		prestige = -50
-		release_vassal = LOM
-		release_vassal = VEN
-		any_pop = {
-			limit = { has_pop_culture = north_italian }
-			militancy = -3
-		}
-		any_pop = {
-			limit = {
-				NOT = { has_pop_culture = north_italian }
-				is_primary_culture = no
-			}
-			militancy = 1
-		}
-		relation = {
-			who = LOM
-			value = 50
-		}
-		diplomatic_influence = {
-			who = LOM
-			value = 200
-		}
-		ai_chance = {
-			factor = 5
-			modifier = {
-				factor = 0
-				OR = {
-					government = proletarian_dictatorship
-					government = bourgeois_dictatorship
-					government = fascist_dictatorship
-					government = presidential_dictatorship
-				}
-			}
-			modifier = {
-				factor = 0.25
-				OR = {
-					government = absolute_monarchy
-					government = prussian_constitutionalism
-				}
-			}
-			modifier = {
-				factor = 1.5
-				government = democracy
-			}
-			modifier = {
-				factor = 0.5
-				war_policy = jingoism
-			}
-			modifier = {
-				factor = 0.75
-				war_policy = pro_military
-			}
-			modifier = {
-				factor = 1.25
-				war_policy = anti_military
-			}
-			modifier = {
-				factor = 1.5
-				war_policy = pacifism
-			}
-			modifier = {
-				factor = 0.5
-				is_greater_power = yes
-			}
-			modifier = {
-				factor = 1.2
-				militancy = 3
-			}
-			modifier = {
-				factor = 1.2
-				militancy = 5
-			}
-			
-		}
-	}
 }
 
 #Venetian insurrection
@@ -747,11 +625,6 @@ country_event = {
 			has_global_flag = venetian_insurrection_occurred
 		}
 	}
-
-	mean_time_to_happen = {
-		days = 15
-	}
-
 	immediate = {
 		set_global_flag = venetian_insurrection_occurred
 		any_pop = {
@@ -788,51 +661,6 @@ country_event = {
 		}
 	}
 
-	option = {
-		name = "We have more important matters."
-		set_country_flag = austria_let_venice_go
-		prestige = -25
-		casus_belli = {
-			target = VEN
-			type = conquest
-			months = 60
-		}
-		any_pop = {
-			limit = {
-				has_pop_culture = romanian
-				location = { is_core = ROM }
-			}
-			militancy = 1
-		}
-		any_pop = {
-			limit = {
-				has_pop_culture = polish
-				location = { is_core = POL }
-			}
-			militancy = 1
-		}
-		ai_chance = {
-			factor = 1
-			modifier = {
-				factor = 5
-				any_greater_power = { war_with = THIS }
-			}
-		}
-	}
-
-	option = {
-		name = "Viva San Marco!"
-			war = {
-					target = VEN
-					attacker_goal = {
-						casus_belli = annex_core_country
-                                        }
-			}
-		change_tag_no_core_switch = VEN
-		ai_chance = {
-			factor = 0
-		}
-	}
 }
 
 
@@ -1789,10 +1617,10 @@ country_event = {
 	trigger = {
 		war = no
 		 OR = {  
-                        tag = KUK
-                        tag = AUS
+			tag = KUK
+			tag = AUS
 		 }
-		has_global_flag = venetian_insurrection_occurred
+			has_global_flag = venetian_insurrection_occurred
 	        has_global_flag = five_days_of_milan_occurred
                 SAR = { has_country_flag = first_war_of_italian_independence_intervention }
                 owns = 727
