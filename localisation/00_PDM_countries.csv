@@ -2519,3 +2519,11 @@ TIG_socialist;Tigrayan People's Liberation Front;Front de libération du Tigrayie
 TIG_communist;Tigrayan Communist Party;Tigrayienne Parti communiste;Tigrayan Kommunistischen Partei;;;;;;;;;;;;x;
 TIG_fascist;Fascist Faction;Faction fasciste;Die faschistische Fraktion;;;;;;;;;;;;x;
 GAZ;Gaza;;;;;;;;;;;;x
+GAZ_ADJ;Gazan;;;;;;;;;;;;x
+GAZ_conservative;Conservative;;;;;;;;;;;;x
+GAZ_liberal;Liberal;;;;;;;;;;;;x
+GAZ_reactionary;Reactionary;;;;;;;;;;;;x
+GAZ_anarcho_liberal;Anarcho Liberal;;;;;;;;;;;;x
+GAZ_socialist;Socialist;;;;;;;;;;;;x
+GAZ_communist;Communist;;;;;;;;;;;;x
+GAZ_fascist;Fascist;;;;;;;;;;;;x
