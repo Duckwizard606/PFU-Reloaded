@@ -1656,7 +1656,7 @@ auschwitz = {
 }
 
 austrian_general_staff = {
-	mobilisation_size = 0.05
+	mobilisation_size = 0.04
 	icon = 15
 }
 
