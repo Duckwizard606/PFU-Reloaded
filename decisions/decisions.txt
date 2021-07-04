@@ -5809,39 +5809,6 @@ political_decisions = {
 		}
 	}
 
-	kaiser_wilhelms_land = {
-		picture = kaiser_wilhelms_land
-		potential = {
-			tag = GER
-			owns = 1531
-			owns = 2530
-			owns = 2531
-			owns = 2537
-			owns = 2539
-			NOT = {
-				has_country_flag = wir_wollen_unseren_alten_kaiser_wilhelm_wiederhaben
-			}
-		}
-		
-		allow = {
-			invention = mission_to_civilize
-		}
-		
-		effect = {
-			prestige = 10
-			1531 = { change_province_name = "Neu-Mecklenburg" }
-			2537 = { change_province_name = "Neu-Pommern" }
-			2858 = { change_province_name = "Bismarck Sea" }
-			2531 = {
-				change_province_name = "Friedrich-Wilhelmshafen"
-				state_scope = {
-					change_region_name = "Kaiser-Wilhelms-Land"
-				}
-			}
-			set_country_flag = wir_wollen_unseren_alten_kaiser_wilhelm_wiederhaben
-		}
-	}
-	
 	the_heligoland_question = {
 		potential = {
 			tag = GER
@@ -16420,46 +16387,6 @@ form_north_german_confederation = {
 		}
 	}
 	
-	colonize_the_congo = {
-		picture = congo
-		potential = {
-			OR = {
-			tag = BEL
-			tag = NET
-			tag = GER
-			tag = FRA
-			tag = KUK
-			tag = ITA
-			tag = SPA
-			tag = IBR
-			tag = SWE
-			tag = SCA
-			tag = ENG
-			}
-            owns = 1982
-			NOT = { has_global_flag = congo_colonized }
-			1984 = { empty = yes }
-		}
-		
-		allow = {
-			nationalism_n_imperialism = 1
-			year = 1875
-			owns = 1982
-		}
-		
-		effect = {
-		prestige = 10
-		BEL_1977 = { add_core = CNG secede_province = THIS any_pop = { literacy = -0.99 } }
-		BEL_1984 = { add_core = CNG secede_province = THIS any_pop = { literacy = -0.99 } }
-		BEL_1987 = { add_core = CNG secede_province = THIS any_pop = { literacy = -0.99 } }
-		BEL_1990 = { add_core = CNG secede_province = THIS any_pop = { literacy = -0.99 } }
-		BEL_1992 = { add_core = CNG secede_province = THIS any_pop = { literacy = -0.99 } }
-		BEL_1996 = { add_core = CNG secede_province = THIS any_pop = { literacy = -0.99 } }
-		set_global_flag = congo_colonized
-		}
-	}	
-
-
 	become_flanders = {
 		picture = become_belgium
 		potential = {
