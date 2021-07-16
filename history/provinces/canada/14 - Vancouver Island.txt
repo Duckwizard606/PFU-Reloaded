@@ -2,7 +2,6 @@ owner = RPL
 controller = RPL
 add_core = RPL
 trade_goods = timber
-life_rating = 40
+life_rating = 35
 terrain = vancouver_island
-colonial = 2
 

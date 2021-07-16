@@ -4,4 +4,3 @@ add_core = RPL
 trade_goods = fruit
 life_rating = 35
 terrain = conifer_forest_mountains
-colonial = 2

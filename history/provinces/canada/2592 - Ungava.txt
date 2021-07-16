@@ -5,4 +5,3 @@ add_core = QUE
 trade_goods = fish
 life_rating = 10
 terrain = tundra
-colonial = 2

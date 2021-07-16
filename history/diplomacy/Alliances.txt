@@ -24,9 +24,27 @@ alliance = {
 	start_date = 1835.1.1
 	end_date = 1867.1.1
 }
+alliance = {
+	first = AUS
+	second = TUS
+	start_date = 1835.1.1
+	end_date = 1867.1.1
+}
+alliance = {
+	first = AUS
+	second = MOD
+	start_date = 1835.1.1
+	end_date = 1867.1.1
+}
 
 #Prussian Alliances
 
+alliance = {
+	first = PRU
+	second = SGM
+	start_date = 1835.1.1
+	end_date = 1867.1.1
+}
 alliance = {
 	first = PRU
 	second = BRE
