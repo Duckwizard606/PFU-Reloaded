@@ -19730,7 +19730,7 @@ form_north_german_confederation = {
 	}
 	
 	####Mexico#####
-		restore_mexican_empire = {
+	restore_mexican_empire = {
 		potential = {
 			tag = MEX
 			government = democracy

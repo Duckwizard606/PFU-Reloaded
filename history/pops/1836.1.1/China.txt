@@ -643,26 +643,26 @@
 	}
 
 	aristocrats = {
-		culture = african_minorl
+		culture =  mongol
 		religion = gelugpa
 		size = 600
 	}
 
 	clergymen = {
-		culture = african_minorl
+		culture =  mongol
 		religion = gelugpa
 		size = 300
 	}
 
 	soldiers = {
-		culture = african_minorl
+		culture =  mongol
 		religion = gelugpa
 		size = 325
 
 	}
 
 	farmers = {
-		culture = african_minorl
+		culture =  mongol
 		religion = gelugpa
 		size = 28225
 	}
@@ -720,26 +720,26 @@
 	}
 
 	aristocrats = {
-		culture = african_minorl
+		culture =  mongol
 		religion = gelugpa
 		size = 250
 	}
 
 	clergymen = {
-		culture = african_minorl
+		culture =  mongol
 		religion = gelugpa
 		size = 150
 	}
 
 	soldiers = {
-		culture = african_minorl
+		culture =  mongol
 		religion = gelugpa
 		size = 150
 
 	}
 
 	farmers = {
-		culture = african_minorl
+		culture =  mongol
 		religion = gelugpa
 		size = 12750
 	}
@@ -1429,20 +1429,20 @@
 	}
 
 	clergymen = {
-		culture = african_minorl
+		culture =  mongol
 		religion = gelugpa
 		size = 675
 	}
 
 	soldiers = {
-		culture = african_minorl
+		culture =  mongol
 		religion = gelugpa
 		size = 675
 
 	}
 
 	farmers = {
-		culture = african_minorl
+		culture =  mongol
 		religion = gelugpa
 		size = 60975
 	}
@@ -4460,26 +4460,26 @@
 #Jirim Chuulghan (152000/38000 POPS)
 1533 = {
 	aristocrats = {
-		culture = african_minorl
+		culture =  mongol
 		religion = gelugpa
 		size = 650
 	}
 
 	clergymen = {
-		culture = african_minorl
+		culture =  mongol
 		religion = gelugpa
 		size = 325
 	}
 
 	soldiers = {
-		culture = african_minorl
+		culture =  mongol
 		religion = gelugpa
 		size = 1100
 
 	}
 
 	farmers = {
-		culture = african_minorl
+		culture =  mongol
 		religion = gelugpa
 		size = 30650
 	}
@@ -4542,7 +4542,7 @@
 	}
 
 	farmers = {
-		culture = african_minorl
+		culture =  mongol
 		religion = gelugpa
 		size = 19375
 	}
@@ -4569,7 +4569,7 @@
 	}
 	
 	farmers = {
-		culture = african_minorl
+		culture =  mongol
 		religion = gelugpa
 		size = 29375
 	}

@@ -1016,7 +1016,7 @@
 		size = 18425
 	}
 }
-#Safrican_minorlga (528000/132000 POPS)
+#(528000/132000 POPS)
 1409 = {
 	aristocrats = {
 		culture = malay
