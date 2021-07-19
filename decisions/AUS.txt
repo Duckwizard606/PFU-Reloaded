@@ -29,10 +29,8 @@ political_decisions = {
 				any_owned_province = { is_core = CRO }
 			}
 			war = no
-			is_greater_power = yes
-			revolution_n_counterrevolution = 1
-			social_science = 1
-
+			year = 1910
+			
 			ruling_party_ideology = liberal
 			OR = {
 				government = democracy
