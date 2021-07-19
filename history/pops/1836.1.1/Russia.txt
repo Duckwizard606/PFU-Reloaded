@@ -8595,101 +8595,101 @@
 		size = 230
 	}
 }
-#Novo Mariinsk (2000/500 POPS) #inuit = chukchi   }
+#Novo Mariinsk (2000/500 POPS) #native_american_minor = chukchi   }
 2637 = {
 	aristocrats = {
-		culture = inuit
+		culture = native_american_minor
 		religion = orthodox
 		size = 7
 	}
 
 	clergymen = {
-		culture = inuit
+		culture = native_american_minor
 		religion = orthodox
 		size = 10
 	}
 
 	artisans = {
-		culture = inuit
+		culture = native_american_minor
 		religion = orthodox
 		size = 25
 	}
 
 	soldiers = {
-		culture = inuit
+		culture = native_american_minor
 		religion = orthodox
 		size = 8
 
 	}
 
 	farmers = {
-		culture = inuit
+		culture = native_american_minor
 		religion = orthodox
 		size = 450
 	}
 }
-#Ugolniye (1000/250 POPS) #inuit = chukchi  }
+#Ugolniye (1000/250 POPS) #native_american_minor = chukchi  }
 2590 = {
 	aristocrats = {
-		culture = inuit
+		culture = native_american_minor
 		religion = orthodox
 		size = 2
 	}
 
 	clergymen = {
-		culture = inuit
+		culture = native_american_minor
 		religion = orthodox
 		size = 5
 	}
 
 	artisans = {
-		culture = inuit
+		culture = native_american_minor
 		religion = orthodox
 		size = 10
 	}
 
 	soldiers = {
-		culture = inuit
+		culture = native_american_minor
 		religion = orthodox
 		size = 3
 
 	}
 
 	farmers = {
-		culture = inuit
+		culture = native_american_minor
 		religion = orthodox
 		size = 230
 	}
 }
-#Pevek (600/150 POPS) #inuit = chukchi  }
+#Pevek (600/150 POPS) #native_american_minor = chukchi  }
 2666 = {
 	aristocrats = {
-		culture = inuit
+		culture = native_american_minor
 		religion = orthodox
 		size = 2
 	}
 
 	clergymen = {
-		culture = inuit
+		culture = native_american_minor
 		religion = orthodox
 		size = 3
 	}
 
 	artisans = {
-		culture = inuit
+		culture = native_american_minor
 		religion = orthodox
 		size = 4
 	}
 
 	soldiers = {
-		culture = inuit
+		culture = native_american_minor
 		religion = orthodox
 		size = 2
 
 	}
 
 	farmers = {
-		culture = inuit
+		culture = native_american_minor
 		religion = orthodox
 		size = 135
 	}
