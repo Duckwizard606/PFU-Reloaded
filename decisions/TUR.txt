@@ -395,5 +395,30 @@ political_decisions = {
 			factor = 1
 		}
 	}
+
+	zonguldak_coal = {
+		picture = zonguldak
+		potential = {
+			tag = TUR
+			NOT = { has_country_flag = zonguldak_coal }
+		}
+		allow = {
+			owns = 881
+			mechanized_mining = 1
+			881 = { NOT = { has_province_modifier = zonguldak_coal_mines } }
+		}
+
+		effect = {
+			add_country_flag = zonguldak_coal
+			prestige = 10
+
+			881 = { #Bolu, Ankara
+				add_province_modifier = { name = zonguldak_coal_mines duration = -1 } # 100% RGO output and throughput
+				add_province_modifier = { name = zonguldak_immigrant_attraction duration = 10965 } # 100% immigrant attraction for 30 years.
+				labourers = { reduce_pop = 1.3 } # 30% increase to miners in the province.
+			}
+		}		
+	}
+
 	
 }

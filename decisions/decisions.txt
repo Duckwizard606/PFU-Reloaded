@@ -14611,6 +14611,8 @@ form_north_german_confederation = {
 		}
 		ai_will_do = { factor = 1 }
 	}
+
+
 	
 	RUS_setup_1836 = {
 		picture = constantinople
