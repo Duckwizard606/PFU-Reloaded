@@ -15297,7 +15297,7 @@ form_north_german_confederation = {
 				all_core = { remove_core = SAF }
 			}
 			SAF = {
-				primary_culture = british
+				primary_culture = english
 				add_accepted_culture = boer
 			}
 		}
