@@ -100,4 +100,25 @@ political_decisions = {
 			factor = 1
 		}
 	}
+
+	request_ruperts_land = {
+		picture = canadian_dominion
+		potential = {
+			tag = CAN
+			ai = no
+			RPL = { exists = yes }
+			NOT = { has_country_flag = requested_ruperts_land }
+		}
+		allow = {
+			RPL = { exists = yes }
+
+			NOT = { has_country_flag = requested_ruperts_land }
+			state_n_government = 1
+		}
+
+		effect = {
+			set_country_flag = requested_ruperts_land
+			ENG = { country_event = 44320 }
+		}
+	}
 }
