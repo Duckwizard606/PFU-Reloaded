@@ -2996,6 +2996,8 @@ EVTNAME98221;The Boers Overtake the Transvaal;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
 EVTDESC98221;We have endured the presence of the Boers, colonists who resent the British and who have been trekking north to avoid their rule, for several decades now. We even thought it was possible to co-exist peacefully. After a number of skirmishes, all ending with our defeat at the hands of their firearms, they have taken over our land in the Transvaal and declared it their own. This is an outrage... yet what can we do?;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,
 EVTNAME98225;The Boer Exodus;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 EVTDESC98225;With 'the Great Trek' underway, many of the Boers are eager to leave $PROVINCENAME$ behind and travel to either the Transvaal or the Oranje Free State where they feel they will be free to pursue their own interests.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
+EVTNAME98227;The Dorsland Trek;;;;;;;;;;;;x																																	
+EVTDESC98227;With 'the Great Trek' underway	 many of the Boers are eager to leave $PROVINCENAME$ behind and establish new homes outside of $COUNTRY_ADJ$ rule. The Dorsland Trek (Thirstland Trek) was the collective name of a series of explorations undertaken by Boer settlers to South-West Africa rather than to the Orange Free State and the South African Republic.;;;;;;;;;;;;x																																
 EVT98225OPTA;Whoever wishes to go may leave.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
 EVT98225OPTB;Give them incentives to stay.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,
 EVTNAME98230;Sand River Convention;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
