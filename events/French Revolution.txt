@@ -510,6 +510,17 @@ country_event = {
 	mean_time_to_happen =  {
 		months = 1
 	}
+	immediate = {
+
+		SPA = {
+			any_owned = {
+				limit = {
+					is_core = SPA
+				}
+				remove_core = FRA
+			}
+		}
+	}
 
 	option = {
 		name = "Vive le 3me Republique!"
