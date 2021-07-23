@@ -37,6 +37,8 @@ country_event = {
 		CAN = {
 			war = no
 			exists = yes
+			ai = yes
+			NOT = { has_country_flag = requested_ruperts_land }
 			OR = {
 				vassal_of = THIS
 				in_sphere = THIS

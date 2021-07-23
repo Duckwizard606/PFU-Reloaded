@@ -41,37 +41,37 @@
 	}
 	
 	aristocrats = {
-		culture = british
+		culture = english
 		religion = protestant
 		size = 20
 	}
 
 	clergymen = {
-		culture = british
+		culture = english
 		religion = protestant
 		size = 70
 	}
 
 	bureaucrats = {
-		culture = british
+		culture = english
 		religion = protestant
 		size = 60
 	}
 
 	artisans = {
-		culture = british
+		culture = english
 		religion = protestant
 		size = 2500
 	}
 
 	soldiers = {
-		culture = british
+		culture = english
 		religion = protestant
 		size = 10000
 	}
 
 	farmers = {
-		culture = british
+		culture = english
 		religion = protestant
 		size = 4250
 	}
@@ -181,13 +181,13 @@
 	}
 
 	clergymen = {
-		culture = british
+		culture = english
 		religion = protestant
 		size = 15
 	}
 
 	farmers = {
-		culture = british
+		culture = english
 		religion = protestant
 		size = 660
 	}
@@ -243,13 +243,13 @@
 	}
 
 	clergymen = {
-		culture = british
+		culture = english
 		religion = protestant
 		size = 15
 	}
 
 	farmers = {
-		culture = british
+		culture = english
 		religion = protestant
 		size = 660
 	}
@@ -269,13 +269,13 @@
 	}
 
 	clergymen = {
-		culture = british
+		culture = english
 		religion = protestant
 		size = 50
 	}
 
 	farmers = {
-		culture = british
+		culture = english
 		religion = protestant
 		size = 1800
 	}
@@ -372,20 +372,20 @@
 	}
 
 	clergymen = {
-		culture = british
+		culture = english
 		religion = protestant
 		size = 15
 	}
 
 	soldiers = {
-		culture = british
+		culture = english
 		religion = protestant
 		size = 10
 
 	}
 
 	farmers = {
-		culture = british
+		culture = english
 		religion = protestant
 		size = 775
 	}
@@ -593,20 +593,20 @@
 #Port Elizabeth (44000/11000 POPS)
 2096 = {
 	clergymen = {
-		culture = british
+		culture = english
 		religion = protestant
 		size = 50
 	}
 
 	soldiers = {
-		culture = british
+		culture = english
 		religion = protestant
 		size = 40
 
 	}
 
 	farmers = {
-		culture = british
+		culture = english
 		religion = protestant
 		size = 1650
 	}
@@ -717,13 +717,13 @@
 #Graaf Reinet (36000/9000 POPS)
 2097 = {
 	clergymen = {
-		culture = british
+		culture = english
 		religion = protestant
 		size = 10
 	}
 
 	farmers = {
-		culture = british
+		culture = english
 		religion = protestant
 		size = 6825
 	}

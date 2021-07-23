@@ -14828,11 +14828,11 @@ form_north_german_confederation = {
 			NOT = { has_country_flag = had_sand_river_convention }
 		}
 		allow = {
-			TRN = {
-				war = no
-				total_amount_of_divisions = 1
-				NOT = { has_country_modifier = trek_boers }
-			}
+			# TRN = {
+			# 	war = no
+			# 	total_amount_of_divisions = 1
+			# 	NOT = { has_country_modifier = trek_boers }
+			# }
 		}
 		effect = {
 			set_country_flag = had_sand_river_convention
@@ -14857,11 +14857,11 @@ form_north_german_confederation = {
 		}
 		
 		allow = {
-			ORA = {
-				war = no
-				total_amount_of_divisions = 1
-				NOT = { has_country_modifier = trek_boers }
-			}
+			# ORA = {
+			# 	war = no
+			# 	total_amount_of_divisions = 1
+			# 	NOT = { has_country_modifier = trek_boers }
+			# }
 		}
 		
 		effect = {
@@ -15297,7 +15297,7 @@ form_north_german_confederation = {
 				all_core = { remove_core = SAF }
 			}
 			SAF = {
-				primary_culture = british
+				primary_culture = english
 				add_accepted_culture = boer
 			}
 		}

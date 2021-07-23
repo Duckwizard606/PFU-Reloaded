@@ -162,6 +162,7 @@ province_event = {
 			duration = 1825
 		}
 		change_province_name = "Johannesburg"
+		life_rating = 35
 		owner = {
 			add_country_modifier = {
 				name = witwatersrand_gold_rush

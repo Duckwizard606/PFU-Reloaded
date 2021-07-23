@@ -1,5 +1,5 @@
 capital = 1785
-primary_culture = british 
+primary_culture = english 
 culture = african_minor
 religion = protestant
 government = democracy
