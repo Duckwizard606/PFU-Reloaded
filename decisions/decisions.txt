@@ -7828,9 +7828,7 @@ political_decisions = {
 			years_of_research = 1
             set_country_flag = serfdom_abolished
 		}
-	}
-
-	
+	}	
 	manifesto_on_unshakable_autocracy = {
 		potential = {
 			tag = RUS
