@@ -7809,21 +7809,42 @@ political_decisions = {
 			}
 		}
 		allow = {
+		war = no
 		year = 1865
 		average_militancy = 1
 		consciousness = 1
 		}
 		effect = {
-			farmers = {
-				militancy = -2
-				consciousness = -1
-			}
-			labourers = {
-				militancy = -2
-				consciousness = -1
+			any_pop = {
+				limit = {
+					OR = {
+						type = farmers
+						type = labourers
+						type = serfs
+					}
 				}
+				militancy = -2
+				consciousness = 1
+			}
+
+			any_owned = {
+				limit = {
+					has_pop_type = serfs
+					has_pop_type = labourers
+				}
+				any_pop = { limit = { type = serfs } pop_type = labourers }
+			}
+			any_owned = {
+				limit = {
+					has_pop_type = serfs
+					has_pop_type = farmers
+				}
+				any_pop = { limit = { type = serfs } pop_type = farmers }
+			}
+
+
 			remove_country_modifier = russian_serfdom
-            prestige = 20
+            prestige = 25
             badboy = -5
 			years_of_research = 1
             set_country_flag = serfdom_abolished
