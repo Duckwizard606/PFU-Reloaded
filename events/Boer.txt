@@ -518,7 +518,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = {
-		days = 2
+		months = 24
 		modifier = {	
 			factor = 0.75
 			TRN = { exists = yes }
@@ -681,7 +681,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = {
-		days = 3
+		month = 28
 		modifier = {	
 			factor = 0.5
 			ORA = { exists = yes }
