@@ -7867,11 +7867,56 @@ political_decisions = {
 		}
 		
 		effect = {
+			ruling_party_ideology = reactionary
+			political_reform = none_voting
+			political_reform = state_press
+			political_reform = appointed
+			politcal_reform = state_controlled
+			political_reform = underground_parties
+			political_reform = mandatory_service
+			government = absolute_monarchy
+
 			prestige = 25
 			badboy = 3
 			any_pop = {
-				consciousness = -0.5
-				militancy = -0.5
+				militancy = -1
+			
+				scaled_militancy = {
+					ideology = reactionary
+					factor = -3
+				}
+				
+				scaled_militancy = {
+					ideology = conservative
+					factor = -1
+				}
+				
+				scaled_consciousness = {
+					ideology = conservative
+					factor = -2
+				}
+				
+				scaled_consciousness = {
+					ideology = reactionary
+					factor = -4
+				}
+				
+				scaled_consciousness = {
+					ideology = liberal
+					factor = 2
+				}
+				scaled_consciousness = {
+					ideology = anarcho_liberal
+					factor = 4
+				}
+				scaled_consciousness = {
+					ideology = socialist
+					factor = 4
+				}
+				scaled_consciousness = {
+					ideology = communist
+					factor = 6
+				}
 			}
 			set_country_flag = the_manifesto
 		}
@@ -14465,15 +14510,7 @@ form_north_german_confederation = {
 			372 = { add_province_modifier = { name = sound_dues_toll duration = -1 } } #Copenhagen		
 			163 = { add_province_modifier = { name = small_baby_boom duration = 3650 } } #Chicago
 			978 = { add_province_modifier = { name = kharkov_university duration = 18000 } } #Kharkov
-            425 = { add_province_modifier = { name = paris_diaspora duration = 18600 } } #Paris migration			
-			#######Rural pops##########
-            RUS_1069 = { any_pop = { pop_type = serfs } }
-			RUS_1070 = { any_pop = { pop_type = serfs } }
-			RUS_1072 = { any_pop = { pop_type = serfs } }
-			RUS_1074 = { any_pop = { pop_type = serfs } }
-			RUS_1065 = { any_pop = { pop_type = serfs } }
-			RUS_2589 = { any_pop = { pop_type = serfs } }
-			
+            425 = { add_province_modifier = { name = paris_diaspora duration = 18600 } } #Paris migration						
 			######################Literacy Setup######################
 		    any_country = { limit = { exists = yes } any_pop = { limit = { has_pop_culture = japanese } literacy = -0.15 } }
 		    any_country = { limit = { exists = yes } any_pop = { limit = { has_pop_culture = swedish } literacy = 0.10 } }
