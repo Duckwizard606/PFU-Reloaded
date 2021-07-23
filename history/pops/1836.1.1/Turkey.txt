@@ -1030,7 +1030,7 @@
 		size = 50350
 	}
 
-	craftsman = {
+	craftsmen = {
 		culture = turkish
 		religion = sunni
 		size = 7500
