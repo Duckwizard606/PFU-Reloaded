@@ -328,6 +328,10 @@ country_migration_target =
 		factor = 0
 		civilized = no
 	}
+	modifier = {
+		factor = 0
+		has_country_flag = ruperts_land
+	}
 	
 }
 

@@ -540,6 +540,10 @@ migration_target =
 		factor = 2.5
 		life_rating = 50
 	}
+	modifier = {
+		factor = 0
+		has_country_flag = ruperts_land
+	}
 }
 
 promote_to =

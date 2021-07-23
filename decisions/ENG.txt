@@ -37,4 +37,40 @@ political_decisions = {
 			}
 		}
 	}
+
+	# annex_canada_no_player = {
+	# 	potential = {
+	# 		tag = ENG
+	# 		CAN = { exists = yes ai = yes }
+	# 		NOT = { has_country_flag = annexed_canada_no_player }
+	# 		NOT = { year = 1840 }
+	# 	}
+
+	# 	allow = { 
+	# 		CAN = { ai = yes }
+	# 	}
+	# 	effect = { 
+	# 		set_country_flag = annexed_canada_no_player
+	# 		CAN_1 = { annex_to = QNG }
+	# 	}
+	# }
+
+	# annex_australia_no_player = {
+	# 	potential = {
+	# 		tag = ENG
+	# 		AST = { exists = yes ai = yes }
+	# 		NOT = { year = 1840 }
+	# 		NOT = { has_country_flag = annexed_australia_no_player }
+	# 	}
+
+	# 	allow = { 
+	# 		AST = { ai = yes }
+	# 	}
+	# 	effect = { 
+	# 		set_country_flag = annexed_australia_no_player
+	# 		CAN_1 = { secede_province = QNG }
+	# 		ENG_2509 = { remove_core = AST add_core = NZL }
+	# 		ENG_2513 = { remove_core = AST add_core = NZL }
+	# 	}
+	# }
 }
