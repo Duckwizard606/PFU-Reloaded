@@ -3181,7 +3181,22 @@ king_cotton = {
 	icon = 15
 }
 
-### Ottomanism
+### Ottoman Empire
+
+zonguldak_coal_mines = {
+	local_RGO_output = 1.2
+	local_RGO_throughput= 1.2
+	icon = 15
+}
+zonguldak_immigrant_attraction = {
+	immigrant_attract = 1
+	immigrant_push = -1
+	icon = 15
+}
+
+
+
+
 ottoman_oppression = {
 	tax_efficiency = 0.4
     non_accepted_pop_militancy_modifier = 0.01

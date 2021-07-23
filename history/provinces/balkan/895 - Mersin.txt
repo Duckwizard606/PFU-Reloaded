@@ -1,6 +1,7 @@
 owner = TUR
 controller = TUR
 add_core = TUR
-trade_goods = fish
-life_rating = 35
+trade_goods = cotton
+life_rating = 40
 terrain = mersin
+naval_base = 1
