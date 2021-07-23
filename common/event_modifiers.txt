@@ -1662,8 +1662,7 @@ austrian_general_staff = {
 
 british_army = {
 	land_organisation = 0.1
-	land_unit_start_experience = 10
-	research_points = 0.5
+	land_unit_start_experience = 5
 	icon = 15
 }
 

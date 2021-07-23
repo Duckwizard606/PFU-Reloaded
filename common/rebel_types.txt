@@ -1168,7 +1168,7 @@ nationalist_rebels = {
 		}
 		modifier = {
 			factor = 0
-			culture = british
+			culture = english
 			country = { primary_culture = boer }
 		}
 		modifier = {
