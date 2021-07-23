@@ -186,7 +186,7 @@ PV_CLERGY_LIT_DESC1;$NUM$ of your population in $LOC$ are Intellectuals.;;;;;;;;
 POP_CON_CLERGY;Intellectuals;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 clergymen;Intellectuals;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;
 financiers;Financiers;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;
-serfs;Rural Pops;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;
+serfs;Serfs;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x;
 promote_clergymen;Encourage Intellectuals;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 no_personality;No Personality;Aucune;Nichts;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,
 active_p;Active;Actif;Aktiv;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,
