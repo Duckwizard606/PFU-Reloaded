@@ -1,3 +1,6 @@
+
+
+
 trinket_health_care_fully_funded = {
 	trigger = {
 		exists = yes
@@ -223,7 +226,7 @@ small_nation = {
 	icon = 6
 }
 
-medium_nation  = {
+medium_nation = {
 	trigger = {
 		total_pops = 3750000 #3.75 million POPs/15 Million population
 		NOT = { total_pops = 7500000 }
@@ -235,7 +238,7 @@ medium_nation  = {
 	icon = 6
 }
 
-large_nation  = {
+large_nation = {
 	trigger = {
 		ai = no
 		year = 1870
@@ -260,7 +263,7 @@ empire = {
 	icon = 6
 }
 
-medium_empire  = {
+medium_empire = {
 	trigger = {
 		ai = no
 		year = 1870
@@ -273,7 +276,7 @@ medium_empire  = {
 	icon = 6
 }
 
-large_empire  = {
+large_empire = {
 	trigger = {
 		ai = no
 		year = 1870
