@@ -1529,14 +1529,14 @@ bakelite = {
 }
 
 haber_process = {
-	limit = { synthetic_polymers = 1  }
+	limit = { synthetic_polymers = 1 }
 	news = no
 
 	chance = {
 		base = 0
 
 		modifier = {
-			tag = GET
+			tag = GER
 			base = 10
 		}
 		modifier = {
