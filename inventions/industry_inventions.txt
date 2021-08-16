@@ -1515,7 +1515,6 @@ rayon = {
 	}
 }
 
-
 bakelite = {
 	limit = { synthetic_polymers = 1 }
 	news = no
@@ -1526,5 +1525,29 @@ bakelite = {
 		factory_goods_output = {
 			glass  = 0.05
 		} 
+	}
+}
+
+haber_process = {
+	limit = { synthetic_polymers = 1  }
+	news = no
+
+	chance = {
+		base = 0
+
+		modifier = {
+			tag = GET
+			base = 10
+		}
+		modifier = {
+			factor = 5
+			year = 1909
+		}
+	}
+	effect = {
+		factory_goods_output = {
+			fertilizer = 0.5
+			explosives = 0.5
+		}
 	}
 }
